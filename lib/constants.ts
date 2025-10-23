@@ -255,31 +255,6 @@ export const SERVICES: Service[] = [
     estimatedDuration: "Variable selon projet (1 jour à plusieurs semaines)"
   },
   {
-    name: "Domotique & Maison Connectée - KNX, Loxone, Fibaro",
-    slug: "domotique-maison-connectee",
-    shortDescription: "Installation systèmes domotiques avancés : gestion éclairage, volets, chauffage, sécurité, multimédia. Pilotage smartphone, scénarios intelligents, économies d'énergie.",
-    fullDescription: "Transformez votre habitation ou bâtiment professionnel en espace intelligent et connecté avec nos solutions domotiques sur-mesure. ELECTRIC SYSTEM conçoit et installe des systèmes domotiques performants et évolutifs.\n\n**SYSTÈMES DOMOTIQUES INSTALLÉS** :\n\n**KNX** (standard professionnel) :\n- Protocole bus filaire universel\n- Idéal grands projets (villas, immeubles, hôtels)\n- Évolutivité maximale\n- Interopérabilité garantie (800+ fabricants)\n- Fiabilité industrielle\n- Prix : Premium (150-300€/m²)\n\n**LOXONE** (solution complète intégrée) :\n- Système filaire (Tree) ou radio (Air)\n- Serveur Miniserver central\n- Interface intuitive\n- Automatismes intelligents\n- Rapport qualité/prix excellent\n- Prix : Moyen-Premium (100-200€/m²)\n\n**FIBARO** (Z-Wave sans fil) :\n- Installation sans câblage (rénovation)\n- Home Center box centrale\n- Compatible Google/Alexa/Siri\n- Évolutif module par module\n- Idéal rénovation et petits projets\n- Prix : Accessible (50-120€/m²)\n\n**FONCTIONS DOMOTIQUES** :\n\n**ÉCLAIRAGE** :\n- Allumage/extinction à distance\n- Variation d'intensité (dimming)\n- Changement couleurs (RGB/RGBW)\n- Scénarios (soirée, lecture, nuit, absent)\n- Simulation présence (vacances)\n- Détection de présence automatique\n\n**VOLETS & STORES** :\n- Ouverture/fermeture smartphone\n- Programmation horaire (lever/coucher soleil)\n- Détection météo (vent, pluie, soleil)\n- Scénario lever/coucher\n- Centralisation (tous volets en un clic)\n\n**CHAUFFAGE & CLIMATISATION** :\n- Régulation température pièce par pièce\n- Programmation hebdomadaire\n- Détection fenêtres ouvertes (coupure auto)\n- Géolocalisation (préchauffage avant arrivée)\n- Optimisation consommation\n- Statistiques et économies 15-30%\n\n**SÉCURITÉ** :\n- Alarme intrusion pilotable\n- Notification push instantanée\n- Vidéosurveillance en direct\n- Simulation présence\n- Contrôle d'accès\n- Détecteur fumée/eau connecté\n\n**SCÉNARIOS INTELLIGENTS** :\n- \"Je pars\" : éteint tout, ferme volets, active alarme\n- \"Je rentre\" : allume lumière entrée, désactive alarme\n- \"Cinéma\" : ferme volets, éteint lumières\n- \"Nuit\" : éteint tout, ferme volets, active alarme nuit\n- \"Réveil\" : ouvre volets progressivement, lumière douce",
-    priceRange: "€2.500 - €85.000",
-    priceMin: 2500,
-    priceMax: 85000,
-    benefits: [
-      "Étude personnalisée gratuite",
-      "Plusieurs systèmes proposés (KNX, Loxone, Fibaro)",
-      "Installation par techniciens certifiés",
-      "Programmation sur-mesure",
-      "Formation utilisation complète",
-      "App smartphone intuitive",
-      "Évolutivité garantie",
-      "Garantie système 2-5 ans",
-      "SAV et maintenance",
-      "Économies énergie 15-30%"
-    ],
-    featured: true,
-    icon: "home",
-    image: "https://images.unsplash.com/photo-1558002038-1055907df827",
-    estimatedDuration: "Installation 1-4 semaines selon ampleur"
-  },
-  {
     name: "Sécurité : Alarme, Vidéosurveillance, Contrôle d'Accès",
     slug: "securite-alarme-videosurveillance-controle-acces",
     shortDescription: "Systèmes sécurité complets : alarme anti-intrusion, vidéosurveillance HD/4K, contrôle d'accès (badges, biométrie), interphonie IP. Résidentiel et professionnel.",
@@ -421,9 +396,9 @@ export const TESTIMONIALS: Testimonial[] = [
     name: "Claire Schneider",
     initials: "CS",
     location: "Luxembourg-Kirchberg",
-    service: "Domotique KNX maison 250m²",
+    service: "Système de sécurité complet maison 250m²",
     rating: 5,
-    text: "Notre maison est devenue vraiment intelligente! Contrôle total depuis le smartphone: éclairage, chauffage, stores, alarme. Économies d'énergie significatives. Système très fiable. Équipe ELECTRIC SYSTEM au top!",
+    text: "Système de sécurité parfait pour notre maison! Alarme efficace, caméras haute définition, contrôle depuis le smartphone. Installation propre et professionnelle. Nous nous sentons en sécurité. Équipe ELECTRIC SYSTEM au top!",
     date: "2024-06"
   },
   {
@@ -478,19 +453,19 @@ export const PROJECTS: Project[] = [
     description: "Étude technique complète (Caneco/Dialux) et installation électrique BT pour résidence haut standing 80 appartements + commerces + parkings. Installation photovoltaïque 120 kWc + 30 bornes de recharge.",
     beforeImage: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5",
     afterImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00",
-    services: ["Bureau d'études Caneco/Dialux", "Installation BT complète", "Photovoltaïque 120 kWc", "30 bornes recharge", "Domotique KNX parties communes"],
+    services: ["Bureau d'études Caneco/Dialux", "Installation BT complète", "Photovoltaïque 120 kWc", "30 bornes recharge", "Sécurité parties communes"],
     results: ["Étude 8 semaines livrée", "Installation 16 semaines", "Conformité 100% premier coup", "Client très satisfait"]
   },
   {
     id: "2",
     title: "Maison passive ECOGREEN",
-    category: "Installation photovoltaïque + Domotique",
+    category: "Installation photovoltaïque + Sécurité",
     location: "Bridel",
     date: "2024-05",
-    description: "Installation complète pour maison passive BBC: panneaux photovoltaïques 12 kWc avec batteries, borne recharge 22 kW, domotique KNX complète, VMC double flux.",
+    description: "Installation complète pour maison passive BBC: panneaux photovoltaïques 12 kWc avec batteries, borne recharge 22 kW, système de sécurité complet, VMC double flux.",
     beforeImage: "https://images.unsplash.com/photo-1518780664697-55e3ad937233",
     afterImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
-    services: ["Photovoltaïque 12 kWc + batteries", "Borne recharge intelligente", "Domotique KNX", "Gestion énergie optimale"],
+    services: ["Photovoltaïque 12 kWc + batteries", "Borne recharge intelligente", "Alarme & vidéosurveillance", "Gestion énergie optimale"],
     results: ["Autoconsommation 85%", "Facture électrique -€120/mois", "Maison 100% autonome été", "ROI prévu 8 ans"]
   },
   {
@@ -539,12 +514,6 @@ export const FAQS: FAQ[] = [
     category: "Bornes recharge"
   },
   {
-    id: "4",
-    question: "Quel système domotique choisir : KNX, Loxone ou Fibaro ?",
-    answer: "Chaque système a ses avantages selon votre projet :\n\n**KNX** (standard professionnel)\n✓ Standard mondial (800+ fabricants compatibles)\n✓ Fiabilité industrielle maximale\n✓ Évolutivité illimitée\n✓ Idéal : projets neufs >150m², villas, immeubles\n✗ Prix premium (150-300€/m²)\n✗ Nécessite câblage bus complet\n✗ Programmation plus complexe\n\n**LOXONE** (solution intégrée)\n✓ Excellent rapport qualité/prix\n✓ Interface intuitive et moderne\n✓ Intelligence artificielle intégrée\n✓ Filaire (Tree) ou radio (Air)\n✓ Idéal : maisons neuves et rénovations\n✗ Système propriétaire (moins de choix fabricants)\n- Prix moyen : 100-200€/m²\n\n**FIBARO** (sans fil Z-Wave)\n✓ Aucun câblage (idéal rénovation)\n✓ Installation progressive module par module\n✓ Compatible Google/Alexa/Siri\n✓ Prix accessible (50-120€/m²)\n✓ Idéal : rénovations, petits/moyens projets\n✗ Portée radio limitée (grandes maisons)\n✗ Dépend qualité réseau Z-Wave\n\n**Notre recommandation** :\n- Construction neuve >200m² : **KNX**\n- Construction neuve <200m² : **Loxone**\n- Rénovation : **Fibaro** ou **Loxone Air**\n- Budget serré : **Fibaro**\n\nNous vous proposons le système optimal selon votre projet et budget.",
-    category: "Domotique"
-  },
-  {
     id: "5",
     question: "Combien coûte un système de vidéosurveillance pour mon entreprise ?",
     answer: "Prix système vidéosurveillance professionnel selon besoins :\n\n**PETIT COMMERCE** (4-8 caméras)\n- **Budget** : 1.800-4.500€\n- **Inclus** : 4-8 caméras IP 4MP, NVR 8 canaux 2 To, installation, app smartphone\n- **Idéal** : magasin, bureau, petit entrepôt\n\n**MOYEN COMMERCE** (8-16 caméras)\n- **Budget** : 4.000-9.000€\n- **Inclus** : 8-16 caméras 4K intérieur/extérieur, NVR 16 canaux 4 To, analytics (détection), app, écran monitoring\n- **Idéal** : supermarché, garage, PME\n\n**GRANDE ENTREPRISE** (16-32+ caméras)\n- **Budget** : 9.000-25.000€+\n- **Inclus** : 16-32+ caméras 4K-8MP avec analytics IA, caméras PTZ motorisées, NVR pro 32+ canaux 8-20 To, intégration alarme/accès, mur vidéo, télésurveillance 24/7\n- **Idéal** : site industriel, multi-sites, zones sensibles\n\n**Options avancées** :\n- **Lecture plaques (LPR)** : +800-1.500€/caméra\n- **Analytics IA** : détection intrusion, abandon objet, comptage (inclus caméras modernes)\n- **Télésurveillance 24/7** : 50-200€/mois selon nombre caméras\n- **Stockage cloud** : 20-100€/mois selon volumétrie\n\n**Conformité RGPD garantie** : affichage, registre, durée conservation. Nous dimensionnons le système selon vos besoins réels et budget.",
@@ -559,7 +528,7 @@ export const FAQS: FAQ[] = [
   {
     id: "7",
     question: "Proposez-vous un service de maintenance pour les installations électriques ?",
-    answer: "Oui, nous proposons des **contrats de maintenance préventive** adaptés à chaque besoin :\n\n**MAINTENANCE INSTALLATIONS ÉLECTRIQUES** :\n- Vérification périodique tableaux électriques\n- Contrôle serrage connexions\n- Tests différentiels et disjoncteurs\n- Vérification mise à la terre\n- Mesures thermographiques (points chauds)\n- Rapport annuel avec recommandations\n- **Prix** : 250-800€/an selon complexité\n\n**MAINTENANCE PHOTOVOLTAÏQUE** :\n- Vérification production (monitoring)\n- Nettoyage panneaux (option)\n- Contrôle onduleurs et protections\n- Tests électriques DC/AC\n- Resserrage connexions\n- **Prix** : 150-400€/an\n\n**MAINTENANCE DOMOTIQUE** :\n- Vérifications système KNX/Loxone/Fibaro\n- Mises à jour logicielles\n- Tests automatismes et scénarios\n- Optimisations programmation\n- Support technique prioritaire\n- **Prix** : 300-1.200€/an selon système\n\n**MAINTENANCE SÉCURITÉ** :\n- Tests alarmes et détecteurs\n- Vérification caméras et enregistrement\n- Maintenance contrôle d'accès\n- Tests SSI (détection incendie)\n- **Prix** : 400-1.500€/an selon installation\n\n**AVANTAGES CONTRAT** :\n- Interventions prioritaires\n- Tarifs réduits dépannages (-20%)\n- Support technique téléphonique illimité\n- Planning interventions personnalisé\n- Prolongation garanties équipements\n\nNous adaptons le contrat à vos besoins et budget. Devis maintenance gratuit sur demande.",
+    answer: "Oui, nous proposons des **contrats de maintenance préventive** adaptés à chaque besoin :\n\n**MAINTENANCE INSTALLATIONS ÉLECTRIQUES** :\n- Vérification périodique tableaux électriques\n- Contrôle serrage connexions\n- Tests différentiels et disjoncteurs\n- Vérification mise à la terre\n- Mesures thermographiques (points chauds)\n- Rapport annuel avec recommandations\n- **Prix** : 250-800€/an selon complexité\n\n**MAINTENANCE PHOTOVOLTAÏQUE** :\n- Vérification production (monitoring)\n- Nettoyage panneaux (option)\n- Contrôle onduleurs et protections\n- Tests électriques DC/AC\n- Resserrage connexions\n- **Prix** : 150-400€/an\n\n**MAINTENANCE SÉCURITÉ** :\n- Tests alarmes et détecteurs\n- Vérification caméras et enregistrement\n- Maintenance contrôle d'accès\n- Tests SSI (détection incendie)\n- **Prix** : 400-1.500€/an selon installation\n\n**AVANTAGES CONTRAT** :\n- Interventions prioritaires\n- Tarifs réduits dépannages (-20%)\n- Support technique téléphonique illimité\n- Planning interventions personnalisé\n- Prolongation garanties équipements\n\nNous adaptons le contrat à vos besoins et budget. Devis maintenance gratuit sur demande.",
     category: "Maintenance"
   },
   {
@@ -602,11 +571,6 @@ export const CERTIFICATIONS: Certification[] = [
     year: 2014
   },
   {
-    name: "Certification KNX Partner",
-    issuer: "KNX Association",
-    year: 2015
-  },
-  {
     name: "Installateur Photovoltaïque Certifié",
     issuer: "QualiPV",
     year: 2016
@@ -634,16 +598,16 @@ export const TEAM: TeamMember[] = [
   {
     name: "Ahmed El Mansouri",
     role: "Chef de Chantier Électricien",
-    bio: "10 ans d'expérience terrain. Spécialiste installations industrielles et tertiaires. Formation continue KNX et photovoltaïque.",
+    bio: "10 ans d'expérience terrain. Spécialiste installations industrielles et tertiaires. Formation continue photovoltaïque et systèmes de sécurité.",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e",
     specialties: ["Installations BT", "Photovoltaïque", "Coordination chantiers", "Mise en service"]
   },
   {
     name: "Karim Benali",
-    role: "Électricien Domotique & Courants Faibles",
-    bio: "8 ans d'expérience. Expert systèmes domotiques KNX, installations VDI et réseaux. Certifié KNX Partner.",
+    role: "Électricien Sécurité & Courants Faibles",
+    bio: "8 ans d'expérience. Expert systèmes de sécurité, installations VDI et réseaux. Certifié installateur alarme et vidéosurveillance.",
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
-    specialties: ["Domotique KNX", "VDI/Réseaux", "Alarme", "Bornes recharge"]
+    specialties: ["Sécurité & Alarme", "VDI/Réseaux", "Vidéosurveillance", "Bornes recharge"]
   },
   {
     name: "Said Tahiri",
@@ -662,7 +626,6 @@ export const PARTNERS: Partner[] = [
   { name: "SunPower", category: "Panneaux photovoltaïques" },
   { name: "Huawei", category: "Onduleurs solaires" },
   { name: "Wallbox", category: "Bornes de recharge" },
-  { name: "KNX Association", category: "Domotique" },
   { name: "Dialux", category: "Logiciel éclairage" },
   { name: "Alpi Caneco", category: "Logiciel dimensionnement" }
 ];
@@ -676,7 +639,6 @@ export const SEO_DATA: SEO = {
     "panneaux photovoltaïques luxembourg",
     "installation solaire luxembourg",
     "borne recharge luxembourg",
-    "domotique knx luxembourg",
     "alarme luxembourg",
     "vidéosurveillance luxembourg",
     "installation électrique luxembourg",
@@ -688,7 +650,7 @@ export const SEO_DATA: SEO = {
     "câblage réseau luxembourg",
     "sécurité luxembourg"
   ],
-  metaDescription: "ELECTRIC SYSTEM Sàrl - Bureau d'études techniques et électricité générale au Luxembourg. Expert Caneco/Dialux, photovoltaïque, bornes recharge, domotique KNX, sécurité. Devis gratuit ☎ 661 22 44 09"
+  metaDescription: "ELECTRIC SYSTEM Sàrl - Bureau d'études techniques et électricité générale au Luxembourg. Expert Caneco/Dialux, photovoltaïque, bornes recharge, sécurité. Devis gratuit ☎ 661 22 44 09"
 };
 
 // Données de financement

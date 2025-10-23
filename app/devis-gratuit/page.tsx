@@ -62,7 +62,7 @@ export default function DevisGratuitPage() {
     { id: 'bureau-etudes', label: 'Bureau d\'Études', icon: Calculator, desc: 'Caneco, Dialux, schémas' },
     { id: 'photovoltaique', label: 'Photovoltaïque', icon: Sun, desc: 'Panneaux solaires' },
     { id: 'borne-recharge', label: 'Borne Recharge', icon: Battery, desc: 'Véhicule électrique' },
-    { id: 'domotique', label: 'Domotique KNX', icon: Home, desc: 'Maison intelligente' },
+    { id: 'domotique', label: 'Domotique', icon: Home, desc: 'Maison intelligente' },
     { id: 'securite', label: 'Sécurité', icon: Shield, desc: 'Alarme, vidéo' },
     { id: 'installation', label: 'Installation Électrique', icon: Zap, desc: 'Neuf ou rénovation' },
   ];

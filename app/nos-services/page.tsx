@@ -11,7 +11,7 @@ import Card from '@/components/ui/Card';
 
 export const metadata: Metadata = generatePageMetadata({
   title: 'Nos Services - Électricité, Bureau d\'Études, Photovoltaïque',
-  description: 'Découvrez tous nos services professionnels: bureau d\'études techniques Caneco/Dialux, installations électriques, panneaux photovoltaïques, bornes recharge, domotique KNX, sécurité.',
+  description: 'Découvrez tous nos services professionnels: bureau d\'études techniques Caneco/Dialux, installations électriques, panneaux photovoltaïques, bornes recharge, systèmes de sécurité.',
   keywords: ['services électricité Luxembourg', 'bureau études électrique', 'installation photovoltaïque', 'borne recharge', 'domotique'],
   path: '/nos-services',
 });

@@ -27,7 +27,6 @@ Site web Next.js 14 complet et production-ready pour ELECTRIC SYSTEM Sàrl, bure
 - **Bureau d'Études Techniques** - Caneco, Dialux, schémas
 - **Panneaux Photovoltaïques** - Installation solaire PV
 - **Bornes de Recharge** - Véhicules électriques (3,7-350 kW)
-- **Domotique KNX** - Maison intelligente
 - **Sécurité** - Alarme, vidéosurveillance
 - **Installation Électrique** - Neuf et rénovation
 - **Mise en Conformité** - Normes luxembourgeoises
