@@ -1,0 +1,343 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Variables CSS pour les couleurs */
+:root {
+  --primary: #FF8C00;
+  --accent: #FFA500;
+  --dark: #1a1a1a;
+  --neutral: #2d2d2d;
+}
+
+/* Styles globaux de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+/* Sélection de texte personnalisée */
+::selection {
+  background-color: #FF8C00;
+  color: #ffffff;
+}
+
+::-moz-selection {
+  background-color: #FF8C00;
+  color: #ffffff;
+}
+
+/* Scrollbar personnalisée */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FF8C00;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FFA500;
+}
+
+/* Accessibilité - Focus visible */
+*:focus-visible {
+  outline: 2px solid #FF8C00;
+  outline-offset: 2px;
+}
+
+/* Réduire les animations si l'utilisateur le préfère */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Utilities personnalisées */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .bg-gradient-primary {
+    background: linear-gradient(135deg, #FF8C00 0%, #FFA500 100%);
+  }
+
+  .bg-gradient-dark {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  }
+
+  .bg-gradient-overlay {
+    background: linear-gradient(
+      to bottom,
+      rgba(26, 26, 26, 0.7),
+      rgba(255, 140, 0, 0.5)
+    );
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, #FF8C00 0%, #FFA500 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+/* Components personnalisés */
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-20 lg:py-24;
+  }
+
+  .heading-xl {
+    @apply text-4xl md:text-5xl lg:text-6xl font-bold leading-tight;
+  }
+
+  .heading-lg {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold leading-tight;
+  }
+
+  .heading-md {
+    @apply text-2xl md:text-3xl lg:text-4xl font-bold leading-tight;
+  }
+
+  .heading-sm {
+    @apply text-xl md:text-2xl lg:text-3xl font-semibold leading-tight;
+  }
+
+  .body-lg {
+    @apply text-lg md:text-xl leading-relaxed;
+  }
+
+  .body-md {
+    @apply text-base md:text-lg leading-relaxed;
+  }
+
+  /* Bouton avec effet glow */
+  .btn-glow {
+    @apply shadow-glow-orange hover:shadow-glow-orange-lg;
+  }
+
+  /* Card avec effet 3D */
+  .card-3d {
+    @apply transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl;
+  }
+
+  /* Badge */
+  .badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium;
+  }
+
+  .badge-primary {
+    @apply bg-primary-100 text-primary-800 border border-primary-300;
+  }
+
+  .badge-accent {
+    @apply bg-accent-100 text-accent-800 border border-accent-300;
+  }
+
+  /* Overlay d'image */
+  .img-overlay {
+    @apply relative overflow-hidden;
+  }
+
+  .img-overlay::after {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-t from-dark-900/80 via-dark-900/40 to-transparent;
+  }
+
+  /* Ligne de séparation avec icône */
+  .divider-icon {
+    @apply flex items-center justify-center gap-4 my-8;
+  }
+
+  .divider-icon::before,
+  .divider-icon::after {
+    content: '';
+    @apply flex-1 h-px bg-gradient-to-r from-transparent via-dark-300 to-transparent;
+  }
+
+  /* Animation de chargement */
+  .skeleton {
+    @apply bg-dark-200 animate-pulse rounded;
+  }
+
+  /* Effet de brillance */
+  .shimmer {
+    @apply relative overflow-hidden;
+  }
+
+  .shimmer::after {
+    content: '';
+    @apply absolute top-0 -inset-full h-full w-1/2 block;
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.3) 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    animation: shimmer 2s infinite;
+  }
+
+  @keyframes shimmer {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+}
+
+/* Animations supplémentaires pour les sections */
+.fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.fade-in-up-delay-1 {
+  animation: fadeInUp 0.8s ease-out 0.2s forwards;
+  opacity: 0;
+}
+
+.fade-in-up-delay-2 {
+  animation: fadeInUp 0.8s ease-out 0.4s forwards;
+  opacity: 0;
+}
+
+.fade-in-up-delay-3 {
+  animation: fadeInUp 0.8s ease-out 0.6s forwards;
+  opacity: 0;
+}
+
+/* Animation pour les compteurs de statistiques */
+@keyframes countUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.count-up {
+  animation: countUp 1s ease-out;
+}
+
+/* Style pour les liens */
+a {
+  @apply transition-colors duration-200;
+}
+
+a:hover {
+  @apply text-primary-500;
+}
+
+/* Style pour les images */
+img {
+  @apply max-w-full h-auto;
+}
+
+/* Effet de zoom sur les images au hover */
+.zoom-on-hover {
+  @apply overflow-hidden;
+}
+
+.zoom-on-hover img {
+  @apply transition-transform duration-500 ease-out;
+}
+
+.zoom-on-hover:hover img {
+  @apply scale-110;
+}
+
+/* Forme décorative */
+.shape-blob {
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  animation: morph 8s ease-in-out infinite;
+}
+
+@keyframes morph {
+  0%,
+  100% {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  }
+  25% {
+    border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%;
+  }
+  50% {
+    border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%;
+  }
+  75% {
+    border-radius: 33% 67% 58% 42% / 63% 68% 32% 37%;
+  }
+}
+
+/* Grille de fond pour les sections */
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgba(255, 140, 0, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 140, 0, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Effet de particules */
+.particles {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* Typographie responsive */
+@media (max-width: 640px) {
+  .heading-xl {
+    @apply text-3xl;
+  }
+  .heading-lg {
+    @apply text-2xl;
+  }
+  .heading-md {
+    @apply text-xl;
+  }
+}
+
+/* Print styles */
+@media print {
+  header,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+}

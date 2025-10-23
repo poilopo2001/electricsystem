@@ -1,0 +1,1592 @@
+{
+  "business": {
+    "name": "ELECTRIC SYSTEM Sàrl",
+    "shortName": "ELECTRIC SYSTEM",
+    "legalForm": "Sàrl (Société à responsabilité limitée)",
+    "sector": "electricite-generale-etudes-techniques",
+    "tagline": "Ingénierie électrique & solutions technologiques",
+    "description": "Bureau d'études techniques et entreprise d'électricité générale au Luxembourg. Expert en dimensionnement installations électriques, études techniques Caneco et Dialux, panneaux photovoltaïques, bornes de recharge, domotique, sécurité (alarme, vidéosurveillance, contrôle d'accès), courants faibles. Services pour particuliers, entreprises, bâtiments publics et résidences. Revente d'études techniques pour promoteurs et maîtres d'ouvrage.",
+    "founded": 2013,
+    "registreCommerce": "B294234",
+    "tva": "LU36415556",
+    "capital": "30.000€",
+    "manager": {
+      "name": "M. Neslym Cherifi",
+      "role": "Gérant Technique",
+      "phone": "+352 661 22 44 09",
+      "phoneDisplay": "661 22 44 09"
+    },
+    "contact": {
+      "phone": "+352 661 22 44 09",
+      "phoneDisplay": "661 22 44 09",
+      "email": "contact@electricsystem.lu",
+      "website": "www.electricsystem.lu",
+      "address": {
+        "city": "Luxembourg",
+        "country": "Luxembourg"
+      },
+      "serviceRadius": "Tout le Grand-Duché de Luxembourg + zones frontalières (Belgique, France, Allemagne)"
+    },
+    "hours": {
+      "weekdays": "Lundi - Vendredi: 8h00 - 18h00",
+      "saturday": "Samedi: 9h00 - 13h00 (sur rendez-vous)",
+      "sunday": "Dimanche: Fermé",
+      "emergency": "Dépannage urgent 24/7"
+    },
+    "languages": ["Français", "Luxembourgeois", "Anglais", "Arabe"],
+    "social": {
+      "facebook": "https://facebook.com/electricsystem.lu",
+      "instagram": "https://instagram.com/electricsystem_lux",
+      "linkedin": "https://linkedin.com/company/electric-system-sarl"
+    }
+  },
+  "branding": {
+    "primaryColor": "#FF8C00",
+    "secondaryColor": "#1a1a1a",
+    "accentColor": "#FFA500",
+    "neutralColor": "#2d2d2d",
+    "colorScheme": "orange-black-electric",
+    "fontFamily": "Montserrat, Inter, sans-serif",
+    "logoColors": ["Orange (#FF8C00)", "Noir (#1a1a1a)", "Blanc (#FFFFFF)"]
+  },
+  "services": [
+    {
+      "name": "Bureau d'Études Techniques - Dimensionnement & Notes de Calcul",
+      "slug": "bureau-etudes-techniques-caneco-dialux",
+      "shortDescription": "Expert dimensionnement installations électriques : notes de calcul Caneco, études d'éclairage Dialux, schémas unifilaires, plans de câblage. Revente d'études pour promoteurs.",
+      "fullDescription": "ELECTRIC SYSTEM dispose d'un véritable **bureau d'études techniques spécialisé** en ingénierie électrique. Nous réalisons des études complètes et détaillées pour tous types de projets : résidences, immeubles de bureaux, bâtiments commerciaux, infrastructures publiques, parkings, sites industriels. \n\n**Nos expertises techniques** :\n\n**CANECO** (logiciel référence dimensionnement électrique) :\n- Calcul sections de câbles selon normes IEC/NF\n- Dimensionnement protections (disjoncteurs, fusibles)\n- Calcul chutes de tension\n- Vérification sélectivité et coordination\n- Calcul court-circuit (Icc, Ik)\n- Bilan de puissance complet\n- Notes de calcul détaillées pour BE contrôle\n\n**DIALUX** (logiciel éclairage professionnel) :\n- Études photométriques complètes\n- Calcul éclairement moyen (lux) par zone\n- Simulation 3D éclairage intérieur/extérieur\n- Optimisation consommation énergétique\n- Conformité normes éclairage (EN 12464, NF C 71-121)\n- Choix luminaires adaptés\n- Rendus 3D photoréalistes\n\n**Livrables fournis** :\n- Notes de calcul Caneco complètes\n- Schémas unifilaires et multifilaires\n- Plans de câblage et cheminements\n- Plans d'implantation équipements\n- Nomenclature matériel détaillée avec références\n- Cahier des charges techniques\n- Études photométriques Dialux avec courbes\n- Dossier complet pour permis de construire\n- Dossier consultation entreprises (DCE)\n\n**Revente d'études clé en main** : Nous proposons nos études techniques à des promoteurs, architectes, bureaux d'ingénierie, maîtres d'ouvrage qui n'ont pas les ressources en interne. Exemples de projets réalisés : résidence 200 appartements, immeuble bureaux 5000m², centre commercial, parking 300 places, école, maison de retraite.\n\n**Types de projets étudiés** :\n- Résidences collectives (10-500 logements)\n- Immeubles de bureaux\n- Bâtiments commerciaux (magasins, centres commerciaux)\n- Bâtiments publics (écoles, mairies, hôpitaux)\n- Parkings couverts et souterrains\n- Sites industriels et entrepôts\n- Hôtels et résidences services\n- Logements individuels haut de gamme\n\n**Nous intervenons sur** :\n- Basse tension (BT) : tableaux, distribution, éclairage, prises\n- Moyenne tension (MT) : postes de transformation, cellules HTA\n- Courants faibles : VDI, alarme, contrôle d'accès, incendie\n- Domotique et GTB (Gestion Technique du Bâtiment)\n- Photovoltaïque et bornes de recharge\n\nÉtudes conformes aux normes luxembourgeoises, françaises (NF C 15-100) et européennes (IEC). Agrément pour dépôt dossiers administration.",
+      "priceRange": "€1.500 - €45.000",
+      "priceMin": 1500,
+      "priceMax": 45000,
+      "benefits": [
+        "Expert Caneco & Dialux certifié",
+        "Notes de calcul complètes conformes normes",
+        "Schémas unifilaires/multifilaires professionnels",
+        "Plans AutoCAD fournis (DWG + PDF)",
+        "Nomenclature matériel avec références exactes",
+        "Études conformes normes LU/FR/IEC",
+        "Dossier permis de construire inclus",
+        "Revue par ingénieur agréé",
+        "Modifications incluses (2 révisions)",
+        "Délais rapides (1-6 semaines selon ampleur)"
+      ],
+      "technicalDetails": {
+        "software": {
+          "caneco": "Caneco BT/HT - Dimensionnement installations électriques",
+          "dialux": "DIALux evo - Études photométriques professionnelles",
+          "autocad": "AutoCAD Electrical - Plans et schémas",
+          "revit": "Revit MEP - Modélisation BIM (option)"
+        },
+        "calculations": [
+          "Bilan de puissance (kW, kVA, cos φ)",
+          "Sections câbles (mm²) selon IEC 60364",
+          "Chutes de tension (ΔU%)",
+          "Courants de court-circuit (Icc, Ik)",
+          "Sélectivité protections",
+          "Coordination disjoncteurs",
+          "Calculs terre et liaisons équipotentielles",
+          "Dimensionnement transformateurs MT/BT",
+          "Compensation d'énergie réactive"
+        ],
+        "lightingStudies": [
+          "Éclairement moyen (Em en lux)",
+          "Uniformité (U0, Ud)",
+          "Indice éblouissement (UGR)",
+          "Rendu des couleurs (IRC/Ra)",
+          "Température couleur (K)",
+          "Consommation énergétique (W/m²)",
+          "Conformité EN 12464-1 (lieux de travail)",
+          "Simulations 3D photoréalistes"
+        ],
+        "deliverables": [
+          "Note de calcul Caneco (50-200 pages selon projet)",
+          "Schéma unifilaire général + par tableau",
+          "Schémas multifilaires détaillés",
+          "Plans de câblage et cheminements",
+          "Plans d'implantation (tableaux, éclairage, prises)",
+          "Nomenclature complète avec références fabricants",
+          "Étude Dialux avec courbes isolux",
+          "Cahier des charges techniques",
+          "Dossier permis de construire",
+          "Métrés et quantitatifs"
+        ],
+        "standards": [
+          "NF C 15-100 (installations BT France/Luxembourg)",
+          "IEC 60364 (installations électriques bâtiments)",
+          "EN 12464-1 (éclairage lieux de travail)",
+          "NF C 71-121 (matériel éclairage)",
+          "Règlement Grand-Ducal Luxembourg",
+          "NormesAccessibilitéPMR",
+          "RT 2020 / Passivhaus (énergétique)"
+        ]
+      },
+      "projectExamples": {
+        "smallResidence": {
+          "type": "Résidence 20 appartements",
+          "scope": "BT complet + courants faibles + photovoltaïque",
+          "deliverables": "Caneco, unifilaires, plans, nomenclature",
+          "duration": "2 semaines",
+          "price": "€3.500 - €6.000"
+        },
+        "mediumResidence": {
+          "type": "Résidence 80 appartements + parkings",
+          "scope": "BT + courants faibles + éclairage + bornes recharge",
+          "deliverables": "Caneco, Dialux, plans complets, DCE",
+          "duration": "4-6 semaines",
+          "price": "€12.000 - €18.000"
+        },
+        "largeResidence": {
+          "type": "Résidence 200 appartements + commerces",
+          "scope": "MT/BT + courants faibles + GTB + photovoltaïque + parkings",
+          "deliverables": "Étude complète MT/BT, Dialux, BIM, DCE, permis",
+          "duration": "8-12 semaines",
+          "price": "€28.000 - €45.000"
+        },
+        "officeBuilding": {
+          "type": "Immeuble bureaux 5000m²",
+          "scope": "MT/BT + éclairage + GTB + VDI + contrôle accès",
+          "deliverables": "Caneco MT/BT, Dialux, plans, nomenclature, DCE",
+          "duration": "6-8 semaines",
+          "price": "€18.000 - €25.000"
+        },
+        "commercial": {
+          "type": "Centre commercial 3000m²",
+          "scope": "MT/BT + éclairage architectural + sécurité incendie",
+          "deliverables": "Études complètes + coordination SSI",
+          "duration": "6-10 semaines",
+          "price": "€15.000 - €22.000"
+        }
+      },
+      "process": [
+        "1. Contact et présentation projet (plans architecte)",
+        "2. Analyse faisabilité + devis étude",
+        "3. Validation commande étude",
+        "4. Réunion technique de lancement",
+        "5. Calculs préliminaires et dimensionnement",
+        "6. Élaboration schémas et plans",
+        "7. Calculs détaillés Caneco",
+        "8. Études éclairage Dialux si applicable",
+        "9. Livraison version préliminaire",
+        "10. Révisions selon remarques (2 itérations incluses)",
+        "11. Finalisation et livraison complète",
+        "12. Support technique post-livraison (1 mois)"
+      ],
+      "guarantees": [
+        "Conformité normes 100% garantie",
+        "Calculs vérifiés par ingénieur agréé",
+        "2 révisions incluses",
+        "Délais contractuels respectés",
+        "Support post-livraison 1 mois",
+        "Assurance RC professionnelle",
+        "Confidentialité totale projets"
+      ],
+      "featured": true,
+      "icon": "calculator",
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
+      "estimatedDuration": "1-12 semaines selon ampleur projet"
+    },
+    {
+      "name": "Installation Panneaux Photovoltaïques - Solaire PV",
+      "slug": "panneaux-photovoltaiques-solaire",
+      "shortDescription": "Installation complète panneaux solaires photovoltaïques pour particuliers et entreprises. Étude de rentabilité, dimensionnement optimal, pose et raccordement.",
+      "fullDescription": "Produisez votre propre électricité verte et réduisez drastiquement vos factures d'énergie avec une installation photovoltaïque professionnelle. ELECTRIC SYSTEM vous accompagne dans votre transition énergétique du début à la fin.\n\n**Notre prestation complète** :\n\n**Étude personnalisée** :\n- Analyse de votre consommation électrique actuelle\n- Étude d'ensoleillement (orientation, inclinaison, ombrages)\n- Dimensionnement optimal (puissance kWc)\n- Calcul production annuelle estimée (kWh)\n- Étude de rentabilité (retour sur investissement)\n- Simulation économique sur 25 ans\n- Calcul des aides et subventions Luxembourg (PRIMe House)\n\n**Installation technique** :\n- Panneaux photovoltaïques haute performance (320-450Wc)\n- Marques premium : SunPower, LG, Panasonic, Longi, JA Solar\n- Onduleurs de qualité : Huawei, SMA, Fronius, SolarEdge\n- Structure de montage aluminium (toiture, sol, carport)\n- Optimiseurs de puissance (si ombrages)\n- Système de monitoring en temps réel\n- Coffret AC/DC avec protections\n- Mise à la terre et parafoudre\n- Raccordement au tableau électrique existant\n- Compteur bidirectionnel (si injection réseau)\n\n**Types d'installations** :\n- **Autoconsommation avec injection du surplus** (le plus courant)\n- **Autoconsommation totale** (sans injection réseau)\n- **Avec batteries de stockage** (autonomie énergétique)\n- **Carport solaire** (abri voiture + production électrique)\n- **Installation au sol** (jardin, terrain)\n- **Ombrières parking** (entreprises, commerces)\n\n**Puissances proposées** :\n- Résidentiel : 3-15 kWc (10-50 panneaux)\n- Petite entreprise : 15-50 kWc\n- Moyenne entreprise : 50-250 kWc\n- Grande installation : >250 kWc\n\n**Avantages** :\n- Réduction facture électricité 50-80%\n- Revenu complémentaire (injection surplus)\n- Valorisation bien immobilier (+5-10%)\n- Indépendance énergétique\n- Geste écologique (CO2 évité)\n- Garanties constructeurs 25 ans panneaux\n- Faible maintenance\n\n**Aides Luxembourg 2024** :\n- PRIMe House : jusqu'à 4.500€ pour installation PV résidentielle\n- TVA réduite 3% (au lieu de 17%)\n- Tarif rachat surplus garanti 15 ans\n\n**Maintenance et suivi** :\n- Monitoring production 24/7 via app\n- Maintenance préventive annuelle (option)\n- Nettoyage panneaux (option)\n- Garantie décennale installation\n- Assurance tous risques (option)",
+      "priceRange": "€6.500 - €180.000",
+      "priceMin": 6500,
+      "priceMax": 180000,
+      "pricePerKWc": "€1.400 - €2.200/kWc",
+      "benefits": [
+        "Étude personnalisée gratuite",
+        "Simulation production sur 25 ans",
+        "Panneaux haute performance garantis 25 ans",
+        "Onduleurs premium garantis 10-25 ans",
+        "Installation par électriciens certifiés",
+        "Raccordement réseau inclus",
+        "Monitoring production temps réel",
+        "Assistance dossier PRIMe House gratuite",
+        "Garantie décennale installation",
+        "SAV réactif sous 48h"
+      ],
+      "technicalDetails": {
+        "panels": {
+          "power": "320-450 Wc par panneau",
+          "efficiency": "18-22% rendement",
+          "warranty": "25 ans performance (80% mini)",
+          "dimensions": "1,7 x 1,0 m environ",
+          "weight": "18-22 kg/panneau",
+          "technology": "Monocristallin (meilleur rendement)",
+          "brands": ["SunPower", "LG", "Panasonic", "Longi", "JA Solar", "Trina Solar"]
+        },
+        "inverters": {
+          "types": ["String (centralisé)", "Micro-onduleurs", "Hybride (avec batteries)"],
+          "brands": ["Huawei", "SMA", "Fronius", "SolarEdge", "Enphase"],
+          "warranty": "10-25 ans selon modèle",
+          "efficiency": ">97% rendement",
+          "monitoring": "App smartphone iOS/Android"
+        },
+        "installation": {
+          "roofTypes": ["Tuiles", "Ardoises", "Tôle", "Bac acier", "Membrane", "Toit plat"],
+          "mounting": "Rails aluminium + crochets adaptés",
+          "inclination": "Optimal 30-35° (ajustable)",
+          "orientation": "Idéal plein sud (±45° acceptable)",
+          "shading": "Optimiseurs si ombrages partiels",
+          "standards": ["IEC 61215", "IEC 61730", "CE", "TÜV"]
+        },
+        "production": {
+          "luxembourg": "900-1.100 kWh/kWc/an selon orientation",
+          "example3kWc": "2.700-3.300 kWh/an",
+          "example6kWc": "5.400-6.600 kWh/an",
+          "example10kWc": "9.000-11.000 kWh/an"
+        },
+        "economics": {
+          "selfConsumption": "30-70% autoconsommation selon profil",
+          "savings": "50-80% réduction facture",
+          "payback": "7-12 ans retour investissement",
+          "income": "Revenu injection surplus 15 ans garanti",
+          "lifespan": "30+ ans durée de vie système"
+        },
+        "subsidies": {
+          "primeHouse": "Jusqu'à 4.500€ (PRIMe House Luxembourg)",
+          "reducedVAT": "TVA 3% au lieu de 17%",
+          "feedInTariff": "Tarif rachat surplus garanti 15 ans"
+        }
+      },
+      "packages": {
+        "starter": {
+          "name": "Starter 3 kWc",
+          "power": "3 kWc (8-10 panneaux)",
+          "production": "2.700-3.300 kWh/an",
+          "surface": "15-18 m² toiture",
+          "suitable": "Couple, petit foyer",
+          "price": "€6.500 - €8.500",
+          "included": [
+            "10 panneaux 330W monocristallins",
+            "Onduleur string 3kW Huawei",
+            "Structure montage alu",
+            "Coffret AC/DC avec protections",
+            "Monitoring app",
+            "Raccordement tableau",
+            "Mise en service",
+            "Garanties constructeurs"
+          ]
+        },
+        "confort": {
+          "name": "Confort 6 kWc",
+          "power": "6 kWc (16-18 panneaux)",
+          "production": "5.400-6.600 kWh/an",
+          "surface": "30-36 m² toiture",
+          "suitable": "Famille 4 personnes",
+          "price": "€11.000 - €14.000",
+          "included": [
+            "18 panneaux 370W haute performance",
+            "Onduleur 6kW SMA/Fronius",
+            "Structure montage renforcée",
+            "Optimiseurs si ombrages",
+            "Monitoring avancé",
+            "Compteur bidirectionnel",
+            "Raccordement + déclaration réseau",
+            "Assistance PRIMe House"
+          ]
+        },
+        "premium": {
+          "name": "Premium 10 kWc",
+          "power": "10 kWc (24-28 panneaux)",
+          "production": "9.000-11.000 kWh/an",
+          "surface": "50-56 m² toiture",
+          "suitable": "Grande maison, piscine, borne recharge VE",
+          "price": "€17.000 - €22.000",
+          "included": [
+            "28 panneaux 400W premium (LG/SunPower)",
+            "Onduleur hybride 10kW avec batterie (option)",
+            "Structure premium",
+            "Optimiseurs puissance",
+            "Monitoring intelligent",
+            "Intégration domotique",
+            "Raccordement professionnel",
+            "Maintenance 2 ans offerte"
+          ]
+        },
+        "business": {
+          "name": "Entreprise 30-250 kWc",
+          "power": "Sur-mesure selon besoins",
+          "production": "Variable selon installation",
+          "surface": "150-1.500 m²",
+          "suitable": "PME, commerces, industries, parkings",
+          "price": "Sur devis (€50.000 - €180.000+)",
+          "included": [
+            "Étude de rentabilité détaillée",
+            "Dimensionnement optimal",
+            "Panneaux industriels haute qualité",
+            "Onduleurs triphasés professionnels",
+            "Structure sur mesure (toiture/ombrière)",
+            "Monitoring centralisé",
+            "Raccordement MT si nécessaire",
+            "Maintenance préventive contrat",
+            "Gestion administrative complète"
+          ]
+        }
+      },
+      "process": [
+        "1. Demande de contact et présentation projet",
+        "2. Visite technique gratuite sur site",
+        "3. Analyse consommation + étude ensoleillement",
+        "4. Proposition dimensionnement optimal",
+        "5. Simulation production et rentabilité",
+        "6. Devis détaillé avec plan d'implantation",
+        "7. Constitution dossier PRIMe House (si éligible)",
+        "8. Validation commande",
+        "9. Déclaration préalable commune si nécessaire",
+        "10. Livraison matériel (2-4 semaines)",
+        "11. Installation sur site (1-3 jours)",
+        "12. Raccordement électrique + réseau",
+        "13. Mise en service et tests",
+        "14. Formation utilisation monitoring",
+        "15. Dossier complet + garanties"
+      ],
+      "guarantees": [
+        "Garantie panneaux 25 ans performance",
+        "Garantie onduleur 10-25 ans (selon modèle)",
+        "Garantie installation 10 ans (décennale)",
+        "Garantie structure montage 10 ans",
+        "Production minimale garantie",
+        "SAV réactif sous 48h",
+        "Maintenance préventive (option contrat)"
+      ],
+      "featured": true,
+      "icon": "sun",
+      "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276",
+      "estimatedDuration": "Étude 1 semaine + installation 1-3 jours"
+    },
+    {
+      "name": "Bornes de Recharge Véhicules Électriques",
+      "slug": "bornes-recharge-vehicules-electriques",
+      "shortDescription": "Installation bornes de recharge pour voitures et bus électriques. Solutions résidentielles, copropriétés, entreprises, parkings publics. Toutes puissances 3,7-350 kW.",
+      "fullDescription": "Avec l'essor de la mobilité électrique, ELECTRIC SYSTEM installe des bornes de recharge adaptées à tous les besoins : maisons individuelles, copropriétés, entreprises, flottes de véhicules, parkings publics, **bornes pour autobus électriques**.\n\n**Types de bornes** :\n\n**RÉSIDENTIEL** :\n- Wallbox 3,7-22 kW monophasé/triphasé\n- Prise renforcée Green'Up 3,2 kW (économique)\n- Borne intelligente avec app smartphone\n- Gestion charge solaire (couplage photovoltaïque)\n- Comptage énergie intégré\n\n**COPROPRIÉTÉS** :\n- Bornes individuelles par place de parking\n- Infrastructure collective (pré-câblage)\n- Système de gestion centralisé\n- Facturation individualisée\n- Solution évolutive (ajout bornes facilité)\n\n**ENTREPRISES & FLOTTES** :\n- Bornes 7-22 kW pour voitures\n- Bornes 50-150 kW charge rapide DC\n- **Bornes 150-350 kW pour bus électriques**\n- Système de supervision de flotte\n- Optimisation tarifaire heures creuses\n- Intégration GTB (Gestion Technique Bâtiment)\n\n**PARKINGS PUBLICS** :\n- Bornes rapides 50-350 kW DC\n- Paiement par carte bancaire/app\n- Connexion réseau de recharge (Chargy, etc.)\n- Supervision à distance 24/7\n- Signalétique et marquage au sol\n\n**Puissances disponibles** :\n- **3,7 kW** : charge lente (nuit) - 8-12h\n- **7,4 kW** : charge normale - 4-6h\n- **11 kW** : charge accélérée - 2-4h\n- **22 kW** : charge rapide AC - 1-2h\n- **50 kW** : charge rapide DC - 30-45 min\n- **150 kW** : charge ultra-rapide - 15-20 min\n- **350 kW** : charge ultra-rapide (bus, PL) - 10-15 min\n\n**Marques installées** :\n- Wallbox (Copper, Pulsar Plus, Commander)\n- Alfen (Eve Single, Double)\n- Schneider Electric (EVlink)\n- ABB (Terra AC, Terra DC)\n- Circontrol (eVolve, Raption)\n- Kempower (charge rapide modulaire)\n- **Heliox, ABB, Siemens** (bornes bus électriques)\n\n**Fonctionnalités smart** :\n- Pilotage via app smartphone\n- Programmation horaires de charge\n- Gestion charge dynamique (load balancing)\n- Optimisation avec photovoltaïque\n- Comptage énergie précis\n- Historique recharges\n- RFID / badges d'accès\n- Paiement intégré (option)\n\n**Avantages** :\n- Recharge à domicile/travail (confort)\n- Coût électricité < stations publiques\n- Valorisation bien immobilier\n- Image éco-responsable entreprise\n- Obligation légale (nouvelles constructions)\n\n**Aides Luxembourg 2024** :\n- Climabënus : jusqu'à 600€ borne résidentielle\n- PRIMe House : subventions copropriétés\n- Aides entreprises pour infrastructures recharge\n- TVA réduite 3% si couplée à rénovation\n\n**Installation complète** :\n- Étude de faisabilité électrique\n- Dimensionnement puissance nécessaire\n- Renforcement installation si besoin (triphasé)\n- Pose borne et support mural/au sol\n- Câblage depuis tableau électrique\n- Protection différentielle 30mA type B\n- Mise à la terre\n- Mise en service et configuration\n- Formation utilisation\n- Déclaration administration (si >22kW)",
+      "priceRange": "€1.200 - €85.000",
+      "priceMin": 1200,
+      "priceMax": 85000,
+      "benefits": [
+        "Étude de faisabilité gratuite",
+        "Toutes puissances 3,7-350 kW",
+        "Marques premium (Wallbox, ABB, Alfen)",
+        "Installation conforme normes",
+        "Gestion charge dynamique (load balancing)",
+        "App smartphone pilotage à distance",
+        "Intégration photovoltaïque possible",
+        "Assistance dossier aides Climabënus",
+        "Garantie constructeur 3-5 ans",
+        "SAV réactif sous 48h"
+      ],
+      "technicalDetails": {
+        "residential": {
+          "power": "3,7-22 kW AC monophasé/triphasé",
+          "chargingTime": "1-8h selon puissance et batterie",
+          "socket": "Type 2 (standard européen)",
+          "cable": "5-7,5m câble attaché ou prise",
+          "protection": "Différentiel 30mA type B obligatoire",
+          "installation": "Mural (garage) ou pied (extérieur)"
+        },
+        "business": {
+          "powerAC": "7-22 kW AC pour voitures",
+          "powerDC": "50-350 kW DC charge rapide",
+          "management": "Système supervision centralisé",
+          "billing": "Facturation individualisée RFID",
+          "connectivity": "4G/Ethernet/WiFi",
+          "standards": "OCPP 1.6/2.0 (interopérabilité)"
+        },
+        "busCharging": {
+          "power": "150-350 kW DC ultra-rapide",
+          "connector": "CCS Combo 2 ou Pantographe",
+          "chargingTime": "10-30 min selon batterie (200-400 kWh)",
+          "cooling": "Refroidissement liquide câble",
+          "brands": ["Heliox", "ABB", "Siemens", "Kempower"],
+          "infrastructure": "Transformateur MT dédié souvent nécessaire"
+        },
+        "features": {
+          "smartCharging": "Charge dynamique selon disponibilité réseau",
+          "solarIntegration": "Optimisation avec production photovoltaïque",
+          "loadBalancing": "Répartition puissance entre bornes",
+          "scheduling": "Programmation horaires (heures creuses)",
+          "monitoring": "App iOS/Android suivi temps réel",
+          "access": "RFID, app, QR code, carte bancaire",
+          "metering": "Compteur MID certifié (facturation)"
+        },
+        "standards": [
+          "IEC 61851 (systèmes recharge VE)",
+          "NF C 15-100 (installations électriques)",
+          "Règlement UE 2023/1804 (interopérabilité)",
+          "ISO 15118 (communication véhicule-borne)",
+          "OCPP 1.6/2.0 (protocole communication)"
+        ]
+      },
+      "packages": {
+        "home": {
+          "name": "Borne Résidentielle",
+          "power": "7,4-11 kW",
+          "suitable": "Maison individuelle, garage",
+          "price": "€1.200 - €2.200",
+          "included": [
+            "Wallbox 7,4 ou 11kW (Wallbox Pulsar Plus)",
+            "Câble type 2 attaché 5m",
+            "Protection différentielle type B",
+            "Installation murale garage",
+            "Câblage 10-20m",
+            "App smartphone pilotage",
+            "Mise en service",
+            "Garantie 3 ans"
+          ]
+        },
+        "condoSingle": {
+          "name": "Borne Copropriété",
+          "power": "7,4-22 kW",
+          "suitable": "Place parking copropriété",
+          "price": "€1.800 - €3.500",
+          "included": [
+            "Borne 7,4-22kW avec RFID",
+            "Pré-câblage infrastructure collective",
+            "Compteur individuel MID",
+            "Système de gestion centralisé",
+            "Badge RFID accès personnel",
+            "Câblage depuis coffret général",
+            "Démarches syndic incluses",
+            "Garantie 5 ans"
+          ]
+        },
+        "business": {
+          "name": "Borne Entreprise",
+          "power": "11-22 kW (ou 50kW DC)",
+          "suitable": "Parking entreprise, flotte",
+          "price": "€2.500 - €8.000/borne",
+          "included": [
+            "Borne 11-22kW (ou 50kW DC)",
+            "Load balancing dynamique",
+            "Système supervision web",
+            "Facturation individuelle RFID",
+            "Intégration GTB possible",
+            "Installation sur pied ou mur",
+            "Câblage renforcé triphasé",
+            "Signalétique",
+            "Maintenance 2 ans incluse"
+          ]
+        },
+        "busCharging": {
+          "name": "Borne Bus Électrique",
+          "power": "150-350 kW DC",
+          "suitable": "Dépôts bus, lignes urbaines",
+          "price": "€35.000 - €85.000+/borne",
+          "included": [
+            "Chargeur DC 150-350kW (Heliox/ABB)",
+            "Connecteur CCS Combo 2 ou Pantographe",
+            "Refroidissement liquide",
+            "Système supervision flotte",
+            "Optimisation tarifaire",
+            "Infrastructure MT si nécessaire",
+            "Génie civil et câblage HTA",
+            "Mise en service complète",
+            "Formation personnel",
+            "Maintenance préventive 5 ans"
+          ]
+        }
+      },
+      "process": [
+        "1. Demande et présentation besoins (nombre VE, puissance)",
+        "2. Visite technique sur site",
+        "3. Analyse installation électrique existante",
+        "4. Vérification puissance disponible",
+        "5. Proposition solution adaptée + devis",
+        "6. Constitution dossier aides (Climabënus, etc.)",
+        "7. Validation commande",
+        "8. Commande matériel (délai 2-6 semaines)",
+        "9. Renforcement installation si nécessaire",
+        "10. Installation borne(s) (1-3 jours selon nombre)",
+        "11. Raccordement électrique et protections",
+        "12. Mise en service et tests",
+        "13. Configuration app et badges RFID",
+        "14. Formation utilisation",
+        "15. Déclaration administration si >22kW",
+        "16. Livraison dossier complet + garanties"
+      ],
+      "guarantees": [
+        "Garantie borne 3-5 ans constructeur",
+        "Garantie installation 2 ans",
+        "Conformité normes 100%",
+        "SAV réactif sous 48h",
+        "Assistance technique téléphonique",
+        "Maintenance préventive (option contrat)",
+        "Pièces détachées garanties"
+      ],
+      "featured": true,
+      "icon": "zap",
+      "image": "https://images.unsplash.com/photo-1593941707882-a5bba14938c7",
+      "estimatedDuration": "Installation 1-3 jours"
+    },
+    {
+      "name": "Électricité Générale - Installation & Rénovation",
+      "slug": "electricite-generale",
+      "shortDescription": "Tous travaux d'électricité : construction neuve, rénovation, mise aux normes, tableaux électriques, câblage, éclairage, prises, dépannage 24/7.",
+      "fullDescription": "ELECTRIC SYSTEM réalise tous vos travaux d'électricité générale pour particuliers, entreprises et bâtiments publics. De la construction neuve à la rénovation complète, nous garantissons des installations sécurisées, fiables et conformes aux normes luxembourgeoises.\n\n**Nos prestations** :\n\n**CONSTRUCTION NEUVE** :\n- Étude et schémas électriques complets\n- Pose chemins de câbles et goulottes\n- Câblage intégral (apparent ou encastré)\n- Tableaux électriques pré-équipés ou sur-mesure\n- Réseau de prises (16A, 32A, USB)\n- Éclairage intérieur et extérieur\n- Réseau de terre et liaisons équipotentielles\n- Raccordement final et mise en service\n- Attestation de conformité\n\n**RÉNOVATION & MISE AUX NORMES** :\n- Diagnostic installation existante\n- Mise en conformité totale NF C 15-100\n- Remplacement tableau électrique vétuste\n- Ajout différentiels 30mA et disjoncteurs\n- Mise à la terre conforme\n- Remplacement câblage dangereux\n- Suppression fils volants apparents\n- Protection circuits (disjoncteurs adaptés)\n- Attestation Consuel/conformité\n\n**TABLEAUX ÉLECTRIQUES** :\n- Tableaux pré-équipés Legrand, Schneider, Hager\n- Tableaux sur-mesure selon besoins\n- Disjoncteur de branchement (DB)\n- Différentiels 30mA type A/AC/F/B\n- Disjoncteurs divisionnaires par circuit\n- Parafoudre type 2 (protection surtensions)\n- Borniers et peignes de connexion\n- Repérage clair et étiquetage\n- Réserve pour extension future\n\n**PRISES & INTERRUPTEURS** :\n- Prises de courant 16A (2P+T)\n- Prises 32A (four, plaques, lave-linge)\n- Prises USB intégrées\n- Interrupteurs simples/doubles/va-et-vient\n- Variateurs d'intensité\n- Détecteurs de mouvement\n- Prises étanches (extérieur, SDB)\n- Large choix design (Legrand Céliane, Schneider Odace, etc.)\n\n**ÉCLAIRAGE** :\n- Conception éclairage intérieur/extérieur\n- Spots LED encastrés (plafond, escalier)\n- Rubans LED (cuisine, salon, SDB)\n- Appliques murales\n- Lustres et suspensions\n- Éclairage extérieur sécurisé IP65\n- Éclairage jardin (bornes, spots encastrés sol)\n- Automatismes (détecteur, crépusculaire)\n- Variation d'intensité (dimmers)\n\n**CHAUFFAGE ÉLECTRIQUE** :\n- Radiateurs électriques (convecteurs, panneaux rayonnants)\n- Sèche-serviettes (SDB)\n- Plancher chauffant électrique\n- Pompes à chaleur (raccordement électrique)\n- Thermostats et programmation\n- Fil pilote 6 ordres\n\n**DÉPANNAGE URGENT 24/7** :\n- Panne générale de courant\n- Disjoncteur qui saute\n- Court-circuit\n- Tableau électrique défaillant\n- Recherche de panne\n- Réparation immédiate si possible\n- Intervention sous 2h (urgences)\n\n**Normes respectées** :\n- NF C 15-100 (norme française appliquée au Luxembourg)\n- IEC 60364 (norme internationale)\n- Règlement Grand-Ducal Luxembourg\n- Accessibilité PMR si applicable\n- RT 2020 / Bâtiment Basse Consommation",
+      "priceRange": "€85 - €45.000",
+      "priceMin": 85,
+      "priceMax": 45000,
+      "benefits": [
+        "Électriciens qualifiés certifiés",
+        "Conformité normes 100% garantie",
+        "Matériel professionnel (Legrand, Schneider)",
+        "Attestation conformité délivrée",
+        "Dépannage urgent 24/7",
+        "Devis gratuit détaillé",
+        "Garantie travaux 2 ans",
+        "Assurance décennale",
+        "Intervention rapide",
+        "Chantier propre garanti"
+      ],
+      "technicalDetails": {
+        "standards": [
+          "NF C 15-100 (installations BT)",
+          "IEC 60364",
+          "Règlement Grand-Ducal Luxembourg",
+          "Accessibilité PMR"
+        ],
+        "protections": {
+          "db": "Disjoncteur branchement 30-60A",
+          "rcd": "Différentiels 30mA type A/AC (protection personnes)",
+          "mcb": "Disjoncteurs divisionnaires 2-32A",
+          "spd": "Parafoudre type 2 (surtensions)",
+          "earthing": "Mise à la terre <100Ω"
+        },
+        "circuits": {
+          "lighting": "1,5mm² - disjoncteur 10A (max 8 points)",
+          "outlets": "2,5mm² - disjoncteur 16A/20A (max 8 prises)",
+          "kitchen": "2,5mm² - disjoncteur 20A (circuit dédié)",
+          "oven": "6mm² - disjoncteur 32A (circuit dédié)",
+          "washingMachine": "2,5mm² - disjoncteur 20A (circuit dédié)",
+          "hvac": "Selon puissance - circuit dédié"
+        },
+        "materials": {
+          "brands": ["Legrand", "Schneider Electric", "Hager", "ABB", "Siemens"],
+          "cables": "Câbles H07VK cuivre (section selon usage)",
+          "conduits": "Gaines ICTA Ø16-25mm (encastré) ou goulottes (apparent)",
+          "panels": "Coffrets 1-4 rangées pré-équipés ou nus"
+        }
+      },
+      "services": {
+        "newConstruction": {
+          "description": "Installation électrique complète construction neuve",
+          "scope": "Étude, câblage, tableaux, prises, éclairage, conformité",
+          "price": "€80-150/m² selon standing",
+          "example": "Maison 150m² : 12.000-22.000€"
+        },
+        "renovation": {
+          "description": "Rénovation électrique complète avec mise aux normes",
+          "scope": "Diagnostic, nouveau tableau, recâblage, prises, éclairage",
+          "price": "€60-120/m² selon état existant",
+          "example": "Appartement 80m² : 4.800-9.600€"
+        },
+        "panelReplacement": {
+          "description": "Remplacement tableau électrique vétuste",
+          "scope": "Nouveau tableau pré-équipé avec protections modernes",
+          "price": "€800-2.500",
+          "duration": "1 jour"
+        },
+        "compliance": {
+          "description": "Mise en conformité (vente/location)",
+          "scope": "Diagnostic + corrections obligatoires + attestation",
+          "price": "€500-3.000",
+          "duration": "1-3 jours"
+        },
+        "lighting": {
+          "description": "Installation éclairage LED complet",
+          "scope": "Spots encastrés, rubans LED, automatismes",
+          "price": "€50-200/point lumineux",
+          "example": "20 spots LED : 1.000-4.000€"
+        },
+        "emergency": {
+          "description": "Dépannage urgent 24/7",
+          "scope": "Intervention rapide sous 2h, recherche panne, réparation",
+          "price": "€150-800 (selon heure et complexité)",
+          "availability": "7j/7, 24h/24"
+        }
+      },
+      "process": [
+        "1. Demande de contact (téléphone/formulaire)",
+        "2. Visite sur site gratuite (si besoin)",
+        "3. Diagnostic installation existante (rénovation)",
+        "4. Devis détaillé gratuit",
+        "5. Validation et planification",
+        "6. Commande matériel",
+        "7. Travaux selon planning",
+        "8. Vérifications et tests",
+        "9. Mise en service",
+        "10. Nettoyage chantier",
+        "11. Attestation de conformité",
+        "12. Garantie 2 ans travaux"
+      ],
+      "guarantees": [
+        "Conformité normes 100%",
+        "Attestation officielle",
+        "Garantie travaux 2 ans",
+        "Garantie matériel 2-5 ans (fabricant)",
+        "Assurance décennale",
+        "Dépannage sous garantie gratuit",
+        "SAV réactif"
+      ],
+      "featured": true,
+      "icon": "bolt",
+      "image": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e",
+      "estimatedDuration": "Variable selon projet (1 jour à plusieurs semaines)"
+    },
+    {
+      "name": "Domotique & Maison Connectée - KNX, Loxone, Fibaro",
+      "slug": "domotique-maison-connectee",
+      "shortDescription": "Installation systèmes domotiques avancés : gestion éclairage, volets, chauffage, sécurité, multimédia. Pilotage smartphone, scénarios intelligents, économies d'énergie.",
+      "fullDescription": "Transformez votre habitation ou bâtiment professionnel en espace intelligent et connecté avec nos solutions domotiques sur-mesure. ELECTRIC SYSTEM conçoit et installe des systèmes domotiques performants et évolutifs.\n\n**Systèmes domotiques installés** :\n\n**KNX** (standard professionnel) :\n- Protocole bus filaire universel\n- Idéal grands projets (villas, immeubles, hôtels)\n- Évolutivité maximale\n- Interopérabilité garantie (800+ fabricants)\n- Fiabilité industrielle\n- Prix : Premium\n\n**LOXONE** (solution complète intégrée) :\n- Système filaire (Tree) ou radio (Air)\n- Serveur Miniserver central\n- Interface intuitive\n- Automatismes intelligents\n- Rapport qualité/prix excellent\n- Prix : Moyen-Premium\n\n**FIBARO** (Z-Wave sans fil) :\n- Installation sans câblage (rénovation)\n- Home Center box centrale\n- Compatible Google/Alexa/Siri\n- Évolutif module par module\n- Idéal rénovation et petits projets\n- Prix : Accessible-Moyen\n\n**Autres systèmes** : Somfy TaHoma, Legrand In One, Schneider Wiser, Homey Pro\n\n**Fonctions domotiques** :\n\n**ÉCLAIRAGE** :\n- Allumage/extinction à distance\n- Variation d'intensité (dimming)\n- Changement couleurs (RGB/RGBW)\n- Scénarios (soirée, lecture, nuit, absent)\n- Simulation présence (vacances)\n- Détection de présence automatique\n\n**VOLETS & STORES** :\n- Ouverture/fermeture smartphone\n- Programmation horaire (lever/coucher soleil)\n- Détection météo (vent, pluie, soleil)\n- Scénario lever/coucher\n- Centralisation (tous volets en un clic)\n\n**CHAUFFAGE & CLIMATISATION** :\n- Régulation température pièce par pièce\n- Programmation hebdomadaire\n- Détection fenêtres ouvertes (coupure auto)\n- Géolocalisation (préchauffage avant arrivée)\n- Optimisation consommation (tarif heures creuses)\n- Statistiques et économies\n\n**SÉCURITÉ** :\n- Alarme intrusion pilotable\n- Notification push instantanée\n- Vidéosurveillance en direct\n- Simulation présence\n- Contrôle d'accès\n- Détecteur fumée/eau connecté\n\n**MULTIMÉDIA** :\n- Audio multiroom (Sonos, etc.)\n- Contrôle home cinéma\n- Ambiances sonores par pièce\n- Radio réveil intelligent\n\n**ÉNERGIE** :\n- Monitoring consommation temps réel\n- Optimisation panneaux solaires\n- Gestion charge véhicule électrique\n- Coupure veilles cachées\n- Statistiques et économies\n\n**Scénarios intelligents** :\n- \"Je pars\" : éteint tout, ferme volets, active alarme\n- \"Je rentre\" : allume lumière entrée, désactive alarme, préchauffe\n- \"Cinéma\" : ferme volets, éteint lumières, allume home cinéma\n- \"Nuit\" : éteint tout, ferme volets, active alarme nuit\n- \"Réveil\" : ouvre volets progressivement, allume lumière douce, lance radio\n\n**Interfaces de pilotage** :\n- Application smartphone (iOS/Android)\n- Tablettes murales tactiles\n- Interrupteurs intelligents muraux\n- Commande vocale (Google Home, Alexa, Siri)\n- Télécommandes universelles\n- Interface web (PC)\n\n**Avantages** :\n- Confort de vie accru\n- Économies énergie 15-30%\n- Sécurité renforcée\n- Valorisation patrimoine immobilier (+5-10%)\n- Autonomie seniors/PMR\n- Gestion à distance (vacances, résidence secondaire)\n\n**Intégrations possibles** :\n- Google Home / Google Assistant\n- Amazon Alexa / Echo\n- Apple HomeKit / Siri\n- IFTTT (automatisations)",
+      "priceRange": "€2.500 - €85.000",
+      "priceMin": 2500,
+      "priceMax": 85000,
+      "benefits": [
+        "Étude personnalisée gratuite",
+        "Plusieurs systèmes proposés (KNX, Loxone, Fibaro)",
+        "Installation par techniciens certifiés",
+        "Programmation sur-mesure",
+        "Formation utilisation complète",
+        "App smartphone intuitive",
+        "Évolutivité garantie",
+        "Garantie système 2-5 ans",
+        "SAV et maintenance",
+        "Économies énergie 15-30%"
+      ],
+      "technicalDetails": {
+        "knx": {
+          "type": "Système filaire bus KNX",
+          "protocol": "Standard mondial ISO/IEC 14543",
+          "manufacturers": "800+ fabricants compatibles",
+          "reliability": "Fiabilité industrielle",
+          "suitable": "Projets neufs moyens/grands (>150m²)",
+          "price": "Premium (€150-300/m²)"
+        },
+        "loxone": {
+          "type": "Système propriétaire filaire/radio",
+          "server": "Miniserver (Go/Gen2) central",
+          "protocol": "Loxone Tree (filaire) ou Air (radio)",
+          "automation": "Intelligence artificielle intégrée",
+          "suitable": "Maisons neuves et rénovations",
+          "price": "Moyen-Premium (€100-200/m²)"
+        },
+        "fibaro": {
+          "type": "Système sans fil Z-Wave",
+          "controller": "Home Center 3 / Lite",
+          "protocol": "Z-Wave Plus (sans fil 868 MHz)",
+          "installation": "Aucun câblage (idéal rénovation)",
+          "suitable": "Rénovations, petits/moyens projets",
+          "price": "Accessible (€50-120/m²)"
+        },
+        "functions": {
+          "lighting": "Gestion éclairage (on/off, dimming, RGB, scénarios)",
+          "shutters": "Volets/stores motorisés (horaire, météo, centralisation)",
+          "heating": "Chauffage/clim pièce par pièce (économies 15-30%)",
+          "security": "Alarme, vidéo, contrôle accès, notifications",
+          "multimedia": "Audio multiroom, home cinéma",
+          "energy": "Monitoring consommation, optimisation PV",
+          "scenarios": "Scénarios intelligents (départ, retour, nuit, etc.)"
+        },
+        "interfaces": {
+          "smartphone": "Apps iOS/Android",
+          "tablet": "Tablettes murales tactiles",
+          "wall": "Interrupteurs muraux intelligents",
+          "voice": "Google Home, Alexa, Siri",
+          "remote": "Télécommandes universelles",
+          "web": "Interface web navigateur"
+        }
+      },
+      "packages": {
+        "starter": {
+          "name": "Domotique Starter (Fibaro)",
+          "surface": "80-120m²",
+          "system": "Fibaro Home Center Lite Z-Wave",
+          "price": "€2.500 - €5.000",
+          "included": [
+            "Home Center Lite (box centrale)",
+            "5 modules éclairage on/off",
+            "2 modules variation (dimmer)",
+            "3 détecteurs mouvement",
+            "2 modules volets roulants",
+            "1 thermostat intelligent",
+            "App smartphone",
+            "Configuration et scénarios de base",
+            "Formation 2h"
+          ]
+        },
+        "confort": {
+          "name": "Domotique Confort (Loxone)",
+          "surface": "150-250m²",
+          "system": "Loxone Miniserver Go",
+          "price": "€12.000 - €22.000",
+          "included": [
+            "Miniserver Go (serveur central)",
+            "Gestion éclairage complète (20-30 circuits)",
+            "Volets/stores motorisés (8-12)",
+            "Chauffage pièce par pièce (6-8 zones)",
+            "Détection présence automatique",
+            "Interrupteurs tactiles muraux (10)",
+            "Intégration alarme et vidéo",
+            "Monitoring énergie",
+            "App + interface web",
+            "Scénarios avancés",
+            "Formation 4h"
+          ]
+        },
+        "premium": {
+          "name": "Domotique Premium (KNX)",
+          "surface": "250-500m²",
+          "system": "KNX avec serveur visualisation",
+          "price": "€35.000 - €65.000",
+          "included": [
+            "Installation KNX complète (bus filaire)",
+            "Serveur visualisation KNX",
+            "Gestion éclairage totale (40-60 circuits)",
+            "Volets/stores toute la maison (15-25)",
+            "Chauffage/clim zone par zone (10-15)",
+            "Détection présence + crépusculaire",
+            "Interrupteurs KNX design haut de gamme",
+            "Intégration sécurité complète",
+            "Audio multiroom (Sonos)",
+            "Monitoring énergie + PV",
+            "Tablettes murales tactiles (3-5)",
+            "Apps + web + vocal",
+            "Scénarios complexes sur-mesure",
+            "Formation complète 8h"
+          ]
+        },
+        "building": {
+          "name": "Immeuble / Bureaux (KNX/Loxone)",
+          "surface": "500-5000m²",
+          "system": "KNX avec GTB (Gestion Technique Bâtiment)",
+          "price": "€50.000 - €200.000+",
+          "included": [
+            "Système KNX professionnel complet",
+            "GTB centralisée (supervision)",
+            "Gestion éclairage intelligente (détection présence)",
+            "CVC (Chauffage Ventilation Climatisation)",
+            "Contrôle d'accès intégré",
+            "Gestion énergétique avancée",
+            "Comptage par zone/locataire",
+            "Reporting et statistiques",
+            "Interface web administration",
+            "Maintenance préventive incluse 1 an"
+          ]
+        }
+      },
+      "process": [
+        "1. Demande et présentation besoins",
+        "2. Visite sur site et analyse",
+        "3. Proposition système adapté (KNX/Loxone/Fibaro)",
+        "4. Conception et plan domotique",
+        "5. Devis détaillé",
+        "6. Validation projet",
+        "7. Commande matériel (2-6 semaines)",
+        "8. Installation câblage/modules (1-3 semaines)",
+        "9. Configuration serveur central",
+        "10. Programmation scénarios",
+        "11. Tests et ajustements",
+        "12. Mise en service",
+        "13. Formation complète utilisateurs",
+        "14. Livraison documentation",
+        "15. Support post-installation"
+      ],
+      "guarantees": [
+        "Garantie système 2-5 ans (selon fabricant)",
+        "Garantie installation 2 ans",
+        "Support technique 1 an inclus",
+        "Maintenance préventive (option contrat)",
+        "Évolutivité garantie",
+        "Mises à jour logiciel incluses 2 ans",
+        "SAV réactif sous 48h"
+      ],
+      "featured": true,
+      "icon": "home",
+      "image": "https://images.unsplash.com/photo-1558002038-1055907df827",
+      "estimatedDuration": "Installation 1-4 semaines selon ampleur"
+    },
+    {
+      "name": "Sécurité : Alarme, Vidéosurveillance, Contrôle d'Accès",
+      "slug": "securite-alarme-videosurveillance-controle-acces",
+      "shortDescription": "Systèmes sécurité complets : alarme anti-intrusion, vidéosurveillance HD/4K, contrôle d'accès (badges, biométrie), interphonie IP. Résidentiel et professionnel.",
+      "fullDescription": "Protégez efficacement vos biens et personnes avec nos systèmes de sécurité professionnels. ELECTRIC SYSTEM conçoit et installe des solutions adaptées à chaque besoin : maisons, commerces, bureaux, industries, bâtiments publics.\n\n**NOS SOLUTIONS DE SÉCURITÉ** :\n\n**1. ALARME ANTI-INTRUSION** :\n\n**Systèmes filaires** (construction neuve) :\n- Centrale d'alarme professionnelle\n- Détecteurs volumétriques (mouvement)\n- Détecteurs d'ouverture (portes, fenêtres)\n- Sirènes intérieures/extérieures\n- Clavier de commande\n- Badges/télécommandes\n- Transmission GSM/IP (alerte smartphone)\n- Détecteurs techniques (fumée, inondation, gaz)\n\n**Systèmes radio** (rénovation) :\n- Installation sans câblage\n- Centrale radio (Ajax, Paradox, Visonic)\n- Détecteurs sans fil longue portée\n- Batteries longue durée (3-7 ans)\n- Application smartphone complète\n- Notifications push instantanées\n- Caméras intégrées (vérification visuelle)\n\n**Fonctions avancées** :\n- Télésurveillance 24/7 (option)\n- Levée de doute vidéo\n- Gestion multi-sites\n- Armement partiel (nuit, zones)\n- Désarmement géolocalisé\n- Journal d'événements\n\n**2. VIDÉOSURVEILLANCE** :\n\n**Caméras IP haute définition** :\n- Résolution 2MP (1080p) à 8MP (4K)\n- Vision nocturne infrarouge 20-50m\n- Détection mouvement intelligente\n- Analyse vidéo (intrusion, franchissement ligne)\n- Audio bidirectionnel\n- Zoom optique 2x-12x\n- Caméras fixes, dômes, PTZ (motorisées)\n- Étanchéité IP66/67 (extérieur)\n\n**Enregistreur NVR/DVR** :\n- Enregistrement continu ou sur détection\n- Stockage 1-4 To (30 jours à 6 mois)\n- Visionnage à distance (app smartphone)\n- Recherche rapide par date/heure/événement\n- Sauvegarde cloud (option)\n- Multi-utilisateurs avec droits\n\n**Applications** :\n- Surveillance périmètre extérieur\n- Surveillance entrées/sorties\n- Lecture de plaques d'immatriculation (LPR)\n- Comptage de personnes (retail)\n- Analyse comportementale\n- Conformité RGPD garantie\n\n**3. CONTRÔLE D'ACCÈS** :\n\n**Systèmes autonomes** :\n- Lecteurs de badges RFID\n- Claviers à code\n- Lecteurs biométriques (empreinte, facial)\n- Gâches électriques / ventouses électromagnétiques\n- Gestion simple via logiciel\n\n**Systèmes centralisés** :\n- Centrale de contrôle d'accès\n- Gestion multi-portes (1-1000+)\n- Badges programmables\n- Horaires d'accès par personne/groupe\n- Journal des passages horodaté\n- Anti-passback\n- Intégration pointeuse (RH)\n- Intégration alarme et vidéo\n\n**Technologies** :\n- RFID 125 kHz / 13,56 MHz (Mifare)\n- Biométrie (empreinte digitale, reconnaissance faciale)\n- Bluetooth / NFC (smartphone)\n- QR code temporaire (visiteurs)\n\n**4. VISIOPHONIE & INTERPHONIE IP** :\n\n**Résidentiel** :\n- Interphone vidéo 7 pouces couleur\n- Vision nocturne\n- Déverrouillage à distance\n- Enregistrement visiteurs\n- Application smartphone (répondre à distance)\n- Marques : Comelit, Legrand, 2N, Aiphone\n\n**Collectif (immeubles)** :\n- Platines d'entrée robustes anti-vandalisme\n- Gestion multi-logements (10-500)\n- Badges résidents\n- Ouverture smartphone\n- Livraisons (codes temporaires)\n- Système 2 fils ou IP\n\n**5. DÉTECTION INCENDIE (SSI)** :\n\n**Systèmes conventionnels** (petits bâtiments) :\n- Centrale 4-32 zones\n- Détecteurs optiques/thermiques\n- Déclencheurs manuels (DM)\n- Sirènes/flash\n- Alarme locale\n\n**Systèmes adressables** (grands bâtiments) :\n- Centrale adressable (500+ détecteurs)\n- Chaque détecteur avec adresse unique\n- Localisation précise départ feu\n- Transmission pompiers\n- Gestion désenfumage\n- Mise en sécurité (ascenseurs, portes)\n- Normes EN 54\n\n**6. GESTION DE PARKING** :\n\n**Systèmes automatisés** :\n- Barrières automatiques\n- Bornes d'accès (tickets, badges)\n- Lecture de plaques (LPR)\n- Comptage places disponibles\n- Affichage places libres\n- Paiement automatique\n- Supervision centralisée",
+      "priceRange": "€800 - €75.000",
+      "priceMin": 800,
+      "priceMax": 75000,
+      "benefits": [
+        "Étude sécurité gratuite",
+        "Matériel professionnel certifié",
+        "Installation par techniciens agrés",
+        "Paramétrage et formation",
+        "Application smartphone incluse",
+        "Garantie matériel 2-5 ans",
+        "Garantie installation 2 ans",
+        "Maintenance préventive (option)",
+        "Conformité RGPD vidéo",
+        "SAV réactif 24/7"
+      ],
+      "technicalDetails": {
+        "alarm": {
+          "wired": "Système filaire (construction neuve)",
+          "wireless": "Système radio Ajax/Paradox/Visonic (rénovation)",
+          "zones": "8-64 zones selon centrale",
+          "detectors": ["PIR mouvement", "Ouverture porte/fenêtre", "Bris de glace", "Rideau extérieur"],
+          "sirens": "Sirène intérieure + extérieure flash",
+          "communication": "GSM/4G + Ethernet/WiFi",
+          "app": "Application smartphone (iOS/Android)",
+          "monitoring": "Télésurveillance 24/7 (option)"
+        },
+        "cctv": {
+          "resolution": "2MP (1080p), 4MP, 5MP, 8MP (4K)",
+          "nightVision": "Infrarouge 20-50m",
+          "analytics": "Détection intrusion, franchissement ligne, visages",
+          "storage": "NVR 4-32 caméras, HDD 1-4 To",
+          "remote": "App smartphone, web navigateur",
+          "brands": ["Hikvision", "Dahua", "Axis", "Hanwha", "Uniview"],
+          "standards": ["ONVIF", "H.265+", "IP66/67"],
+          "gdpr": "Conformité RGPD (affichage, durée conservation)"
+        },
+        "accessControl": {
+          "standalone": "Lecteur autonome 1 porte (500-2000 utilisateurs)",
+          "networked": "Système centralisé multi-portes",
+          "technologies": ["RFID 125kHz/13.56MHz", "Biométrie", "Bluetooth/NFC", "QR code"],
+          "locks": ["Gâche électrique", "Ventouse électromagnétique", "Serrure motorisée"],
+          "software": "Logiciel gestion accès + journal passages",
+          "integration": "Intégration alarme, vidéo, pointeuse"
+        },
+        "intercom": {
+          "residential": "Visiophone 7' couleur + platine 1-4 sonnettes",
+          "building": "Système IP 10-500 logements",
+          "features": ["Déverrouillage distance", "App smartphone", "Enregistrement", "Vision nocturne"],
+          "brands": ["Comelit", "2N", "Legrand", "Aiphone", "Dahua"]
+        },
+        "fireDetection": {
+          "conventional": "4-32 zones (petits bâtiments)",
+          "addressable": "Système adressable 500+ points (grands bâtiments)",
+          "detectors": ["Détecteurs optiques fumée", "Détecteurs thermiques", "Détecteurs multi-critères"],
+          "manual": "Déclencheurs manuels (DM)",
+          "evacuation": "Sirènes + flash évacuation",
+          "standards": ["EN 54", "Règlement Grand-Ducal Luxembourg"]
+        }
+      },
+      "packages": {
+        "homeAlarm": {
+          "name": "Alarme Maison (Ajax)",
+          "suitable": "Maison 100-200m²",
+          "price": "€1.200 - €2.500",
+          "included": [
+            "Centrale Ajax Hub 2 radio",
+            "5 détecteurs mouvement avec caméra",
+            "6 détecteurs ouverture",
+            "2 télécommandes",
+            "1 clavier",
+            "1 sirène extérieure",
+            "Module GSM/IP",
+            "App smartphone",
+            "Installation et programmation"
+          ]
+        },
+        "homeCCTV": {
+          "name": "Vidéosurveillance Maison",
+          "suitable": "4-8 caméras extérieur/intérieur",
+          "price": "€1.800 - €4.500",
+          "included": [
+            "4-8 caméras IP 4MP vision nocturne",
+            "NVR 8 canaux avec disque 2 To",
+            "Câblage et installation",
+            "Configuration et mise en service",
+            "App smartphone visionnage à distance",
+            "1 écran monitoring (option)"
+          ]
+        },
+        "businessSecurity": {
+          "name": "Sécurité Commerce/Bureau",
+          "suitable": "Alarme + vidéo + contrôle accès",
+          "price": "€5.000 - €15.000",
+          "included": [
+            "Alarme professionnelle 16 zones",
+            "8-16 caméras IP 4K intérieur/extérieur",
+            "NVR 16 canaux 4 To",
+            "Contrôle d'accès 2-4 portes (badges RFID)",
+            "Interphone IP entrée principale",
+            "Télésurveillance 24/7 (option)",
+            "Installation complète",
+            "Formation personnel",
+            "Maintenance 1 an incluse"
+          ]
+        },
+        "industrialSecurity": {
+          "name": "Sécurité Site Industriel",
+          "suitable": "Grande surface, multi-bâtiments",
+          "price": "€25.000 - €75.000+",
+          "included": [
+            "Système alarme centralisé multi-zones",
+            "20-50+ caméras IP 4K-8K analytics",
+            "Caméras PTZ motorisées périmètre",
+            "Lecture plaques LPR entrée/sortie",
+            "Contrôle accès centralisé multi-portes",
+            "Badges RFID + biométrie",
+            "Barrières automatiques",
+            "Supervision centralisée SOC",
+            "Intégration complète (alarme-vidéo-accès)",
+            "Télésurveillance 24/7",
+            "Maintenance préventive contrat"
+          ]
+        }
+      },
+      "process": [
+        "1. Demande et présentation besoins sécurité",
+        "2. Visite sur site et analyse des risques",
+        "3. Étude sécurité et préconisations",
+        "4. Proposition solution adaptée",
+        "5. Devis détaillé avec plan d'implantation",
+        "6. Validation projet",
+        "7. Commande matériel (2-6 semaines)",
+        "8. Installation (câblage, équipements) - 1-5 jours",
+        "9. Configuration et paramétrage",
+        "10. Tests et vérifications",
+        "11. Formation utilisateurs",
+        "12. Mise en service et livraison",
+        "13. Documentation complète",
+        "14. Support et maintenance"
+      ],
+      "guarantees": [
+        "Garantie matériel 2-5 ans (fabricant)",
+        "Garantie installation 2 ans",
+        "Support technique 1 an inclus",
+        "Maintenance préventive (option contrat)",
+        "Conformité normes et RGPD",
+        "SAV 24/7 pour urgences",
+        "Pièces détachées garanties"
+      ],
+      "featured": true,
+      "icon": "shield",
+      "image": "https://images.unsplash.com/photo-1557597774-9d273605dfa9",
+      "estimatedDuration": "Installation 1-5 jours selon ampleur"
+    },
+    {
+      "name": "Réseaux Informatiques & Câblage VDI",
+      "slug": "reseaux-informatiques-cablage-vdi",
+      "shortDescription": "Installation réseaux informatiques professionnels : câblage structuré VDI, fibre optique, WiFi, baies de brassage. Pour bureaux, datacenters, industries.",
+      "fullDescription": "Dans un monde ultra-connecté, un réseau informatique performant et fiable est indispensable. ELECTRIC SYSTEM conçoit et installe des infrastructures réseau professionnelles pour particuliers, entreprises et bâtiments tertiaires.\n\n**NOS PRESTATIONS RÉSEAUX** :\n\n**1. CÂBLAGE STRUCTURÉ VDI** (Voix, Données, Images) :\n\n**Câblage cuivre** :\n- Catégorie 6 (1 Gbps) : standard actuel\n- Catégorie 6A (10 Gbps) : futureproof\n- Catégorie 7/7A (10+ Gbps) : très haute performance\n- Câbles blindés STP/FTP (environnements perturbés)\n- Longueur maximale 90m par lien\n\n**Câblage fibre optique** :\n- Fibre multimode OM3/OM4 (300m-550m)\n- Fibre monomode OS2 (jusqu'à 10+ km)\n- Connecteurs LC, SC, ST\n- Cassettes et tiroirs optiques\n- Idéal backbone immeubles et datacenters\n\n**Éléments d'infrastructure** :\n- Prises RJ45 murales/sol\n- Chemins de câbles et goulottes\n- Baies de brassage 19 pouces (6U-42U)\n- Panneaux de brassage 24/48 ports\n- Switchs réseau managés/non-managés\n- Routeurs et firewalls\n- Onduleurs (protection coupures)\n- Étiquetage et documentation complète\n\n**2. RÉSEAUX WIFI PROFESSIONNELS** :\n\n**Points d'accès WiFi** :\n- WiFi 6 (802.11ax) dernière génération\n- Débit jusqu'à 9,6 Gbps théorique\n- Gestion centralisée (controller)\n- Roaming transparent\n- Captive portal (hotspot visiteurs)\n- Segmentation réseau (VLAN)\n- Marques : Ubiquiti, Cisco Meraki, Aruba, Ruckus\n\n**Couverture optimale** :\n- Étude de couverture radio (site survey)\n- Simulation heatmap\n- Dimensionnement nombre d'AP\n- Installation plafond/mur\n- Câblage PoE (Power over Ethernet)\n\n**Applications** :\n- Bureaux (densité utilisateurs)\n- Hôtels (WiFi chambre + communs)\n- Commerces (WiFi clients + caisses)\n- Entrepôts (terminaux mobiles)\n- Établissements publics (écoles, hôpitaux)\n\n**3. DATACENTERS & SALLES SERVEURS** :\n\n**Infrastructure physique** :\n- Baies serveurs 42U professionnelles\n- Câblage structuré haute densité\n- Alimentation redondée (double PDU)\n- Onduleur UPS (autonomie 15-60 min)\n- Climatisation précision\n- Détection incendie et extinction gaz\n- Contrôle d'accès sécurisé\n\n**Supervision** :\n- Monitoring température/humidité\n- Alertes en temps réel\n- Accès à distance sécurisé\n\n**4. TÉLÉPHONIE IP (VoIP)** :\n\n**Systèmes** :\n- PABX IP (Centrex, Asterisk, 3CX)\n- Téléphones IP Gigaset, Yealink, Cisco\n- Softphones (PC/smartphone)\n- Intégration SIP opérateurs Luxembourg\n\n**Fonctionnalités** :\n- Standard automatique\n- Transfert d'appels\n- Conférences\n- Messagerie vocale\n- Enregistrement appels\n- Statistiques (call center)\n\n**5. TESTS & CERTIFICATIONS** :\n\n**Tests réalisés** :\n- Tests de performance (bande passante)\n- Tests de continuité\n- Mesures atténuation et diaphonie\n- Certification Fluke Networks\n- Rapports de certification officiels\n- Garantie 20-25 ans (câblage certifié)\n\n**Normes respectées** :\n- ISO/IEC 11801 (câblage générique)\n- EN 50173 (câblage bâtiments)\n- TIA/EIA-568 (standard US)\n- ANSI/TIA-942 (datacenters)",
+      "priceRange": "€60 - €125.000",
+      "priceMin": 60,
+      "priceMax": 125000,
+      "benefits": [
+        "Étude réseau gratuite",
+        "Câblage certifié (garantie 25 ans)",
+        "Tests performance Fluke inclus",
+        "Documentation complète (schémas, plans)",
+        "Matériel professionnel (Panduit, Legrand, Schneider)",
+        "Installation propre et soignée",
+        "Étiquetage complet",
+        "Switchs managés configurés",
+        "Garantie installation 2 ans",
+        "Support technique"
+      ],
+      "technicalDetails": {
+        "cabling": {
+          "cat6": "Cat 6 UTP - 1 Gbps - 250 MHz",
+          "cat6a": "Cat 6A FTP - 10 Gbps - 500 MHz (recommandé)",
+          "cat7": "Cat 7 SFTP - 10 Gbps - 600 MHz",
+          "fiberMM": "Fibre multimode OM3/OM4 - 10 Gbps - 300-550m",
+          "fiberSM": "Fibre monomode OS2 - 10+ Gbps - 10+ km",
+          "warranty": "Garantie 20-25 ans (câblage certifié)"
+        },
+        "infrastructure": {
+          "outlets": "Prises RJ45 murales/sol",
+          "patchPanels": "Panneaux brassage 24/48 ports Cat 6A",
+          "racks": "Baies 19' 6U-42U",
+          "switches": "Switchs Gigabit/10G PoE+ managés",
+          "routers": "Routeurs/firewalls entreprise",
+          "ups": "Onduleurs protection coupures",
+          "labeling": "Étiquetage complet + documentation"
+        },
+        "wifi": {
+          "standard": "WiFi 6 (802.11ax)",
+          "speed": "Jusqu'à 9,6 Gbps (théorique)",
+          "management": "Controller centralisé",
+          "security": "WPA3, 802.1X, VLAN",
+          "brands": ["Ubiquiti", "Cisco Meraki", "Aruba", "Ruckus"],
+          "poe": "Alimentation PoE/PoE+ (802.3af/at)"
+        },
+        "testing": {
+          "performance": "Tests performance (bande passante)",
+          "certification": "Certification Fluke DTX/DSX",
+          "reports": "Rapports certification officiels",
+          "warranty": "Garantie fabricant 20-25 ans"
+        },
+        "standards": [
+          "ISO/IEC 11801 (câblage générique)",
+          "EN 50173 (câblage bâtiments)",
+          "TIA/EIA-568 (standard US)",
+          "ANSI/TIA-942 (datacenters)"
+        ]
+      },
+      "services": {
+        "smallOffice": {
+          "name": "Bureau 5-20 postes",
+          "scope": "Câblage 10-20 prises RJ45 + switch + WiFi",
+          "price": "€2.000 - €5.000",
+          "included": [
+            "Câblage Cat 6A 10-20 prises",
+            "Baie murale 6U",
+            "Panneau brassage 24 ports",
+            "Switch Gigabit PoE 24 ports",
+            "1-2 points d'accès WiFi 6",
+            "Tests et certification",
+            "Documentation"
+          ]
+        },
+        "mediumOffice": {
+          "name": "Bureau 20-100 postes",
+          "scope": "Câblage structuré complet + WiFi + téléphonie IP",
+          "price": "€8.000 - €25.000",
+          "included": [
+            "Câblage Cat 6A 50-100 prises",
+            "Baie 42U",
+            "Panneaux brassage multiples",
+            "Switchs managés empilables",
+            "5-10 points accès WiFi 6",
+            "PABX IP + téléphones",
+            "Routeur/firewall",
+            "Tests complets",
+            "Documentation"
+          ]
+        },
+        "largeOffice": {
+          "name": "Bureaux 100+ postes",
+          "scope": "Infrastructure réseau complète multi-étages",
+          "price": "€30.000 - €125.000+",
+          "included": [
+            "Câblage Cat 6A + fibre optique backbone",
+            "Multiples baies 42U par étage",
+            "Switchs cœur 10G + distribution",
+            "WiFi 6 haute densité (controller)",
+            "Salle serveurs dédiée",
+            "Redondance liens critiques",
+            "Monitoring réseau (SNMP)",
+            "Tests et certification complète",
+            "Documentation exhaustive",
+            "Formation équipe IT"
+          ]
+        }
+      },
+      "process": [
+        "1. Demande et présentation besoins réseau",
+        "2. Visite sur site et analyse infrastructure",
+        "3. Étude réseau et dimensionnement",
+        "4. Plans câblage et synoptiques",
+        "5. Devis détaillé",
+        "6. Validation projet",
+        "7. Commande matériel (2-6 semaines)",
+        "8. Installation chemins câbles - 1-3 jours",
+        "9. Tirage câbles et raccordements - 2-10 jours",
+        "10. Installation baies et équipements actifs - 1-2 jours",
+        "11. Tests de performance et certification - 1 jour",
+        "12. Configuration switchs/routeurs/WiFi - 1-2 jours",
+        "13. Documentation (plans, tests, configs) - 1 jour",
+        "14. Formation équipe IT si nécessaire",
+        "15. Livraison et support"
+      ],
+      "guarantees": [
+        "Garantie câblage 20-25 ans (certifié)",
+        "Garantie équipements actifs 3-5 ans (fabricant)",
+        "Garantie installation 2 ans",
+        "Certification performance Fluke",
+        "Support technique inclus 1 an",
+        "Maintenance préventive (option)",
+        "Évolutivité garantie"
+      ],
+      "featured": false,
+      "icon": "network",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
+      "estimatedDuration": "2 jours à 4 semaines selon ampleur"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Jean-Paul Kremer",
+      "location": "Luxembourg-Ville",
+      "rating": 5,
+      "text": "ELECTRIC SYSTEM a réalisé l'étude électrique complète de notre résidence de 120 appartements. Les notes de calcul Caneco sont d'une précision remarquable, les schémas unifilaires ultra-détaillés. La revente d'étude nous a permis de gagner un temps précieux et d'avoir une base technique solide pour la consultation d'entreprises. Excellent travail du bureau d'études !",
+      "service": "Bureau d'études - Résidence 120 appts",
+      "date": "2024-08",
+      "projectValue": "€22.000"
+    },
+    {
+      "name": "Sophie Muller",
+      "location": "Strassen",
+      "rating": 5,
+      "text": "Installation photovoltaïque 8 kWc sur notre maison. L'étude de rentabilité était très claire. Les panneaux SunPower sont de grande qualité et l'installation soignée. Le système produit même plus que prévu ! Avec la prime PRIMe House et les économies, l'investissement sera rentabilisé en 8 ans. Super équipe, très professionnelle.",
+      "service": "Panneaux photovoltaïques 8 kWc",
+      "date": "2024-09",
+      "projectValue": "€14.800"
+    },
+    {
+      "name": "Marc Schneider",
+      "location": "Bertrange",
+      "rating": 5,
+      "text": "Installation de 3 bornes de recharge 22 kW dans notre entreprise pour nos véhicules électriques. Le système de gestion centralisé avec badges RFID fonctionne parfaitement. Le load balancing optimise la charge selon la disponibilité du réseau. Installation propre et rapide. Je recommande !",
+      "service": "3 bornes recharge entreprise 22 kW",
+      "date": "2024-07",
+      "projectValue": "€8.400"
+    },
+    {
+      "name": "Patricia Weber",
+      "location": "Mamer",
+      "rating": 5,
+      "text": "Rénovation électrique complète de notre maison des années 80. Nouveau tableau Schneider, recâblage en Cat 6A, nouveaux circuits pour la cuisine. Tout est conforme aux normes actuelles. L'équipe est sérieuse, ponctuelle et a laissé le chantier impeccable. Attestation de conformité fournie rapidement. Parfait !",
+      "service": "Rénovation électrique complète",
+      "date": "2024-08",
+      "projectValue": "€11.200"
+    },
+    {
+      "name": "Daniel Hoffmann",
+      "location": "Capellen",
+      "rating": 5,
+      "text": "Installation domotique Loxone dans notre nouvelle construction. Le système est incroyable : tout est automatisé (éclairage, volets, chauffage, alarme). L'app smartphone est très intuitive. Les scénarios intelligents (départ, retour, nuit) simplifient vraiment la vie. Formation complète fournie. On adore !",
+      "service": "Domotique Loxone complète",
+      "date": "2024-06",
+      "projectValue": "€18.500"
+    },
+    {
+      "name": "Thomas Reuter",
+      "location": "Hesperange",
+      "rating": 5,
+      "text": "Système de sécurité complet pour notre commerce : alarme Ajax, 8 caméras 4K avec analytics, contrôle d'accès biométrique. La qualité d'image des caméras est exceptionnelle, même la nuit. L'application permet de tout superviser à distance. Installation professionnelle, paramétrage optimal. Nous nous sentons en sécurité.",
+      "service": "Sécurité commerce complète",
+      "date": "2024-09",
+      "projectValue": "€12.800"
+    },
+    {
+      "name": "Martine Da Silva",
+      "location": "Dudelange",
+      "rating": 5,
+      "text": "Câblage réseau Cat 6A de nos nouveaux bureaux (40 postes). Les câbles sont tirés proprement, l'étiquetage est impeccable, la documentation fournie est complète. Les tests de certification montrent des performances parfaites. Le WiFi 6 couvre tout le bâtiment sans zone morte. Excellent travail !",
+      "service": "Câblage réseau bureaux 40 postes",
+      "date": "2024-07",
+      "projectValue": "€9.600"
+    },
+    {
+      "name": "Robert Becker",
+      "location": "Leudelange",
+      "rating": 5,
+      "text": "Étude d'éclairage Dialux pour notre nouveau showroom automobile. Les simulations 3D nous ont permis de visualiser le résultat avant travaux. L'optimisation de l'éclairage LED a réduit notre consommation de 60% par rapport à l'ancien système halogène. Les calculs photométriques sont conformes aux normes. Bravo !",
+      "service": "Étude Dialux + installation LED",
+      "date": "2024-08",
+      "projectValue": "€15.400"
+    },
+    {
+      "name": "Nathalie Schaffer",
+      "location": "Sandweiler",
+      "rating": 5,
+      "text": "Dépannage urgent un dimanche soir : toute l'électricité était coupée. M. Cherifi est intervenu en 1h30, a trouvé le problème (différentiel défaillant) et l'a résolu rapidement. Prix honnête, très professionnel. Merci pour cette réactivité ! Je garde précieusement le numéro.",
+      "service": "Dépannage urgent",
+      "date": "2024-09",
+      "projectValue": "€280"
+    },
+    {
+      "name": "François Klein",
+      "location": "Schuttrange",
+      "rating": 5,
+      "text": "Installation borne de recharge 11 kW Wallbox pour ma Tesla Model 3. Installation propre avec protection type B, le tout raccordé proprement au tableau. La borne charge à la puissance maximale. Application smartphone pratique pour suivre les recharges. Aide pour le dossier Climabënus (600€ récupérés). Top !",
+      "service": "Borne recharge 11 kW résidentielle",
+      "date": "2024-09",
+      "projectValue": "€1.850"
+    },
+    {
+      "name": "Isabelle Thill",
+      "location": "Kehlen",
+      "rating": 5,
+      "text": "Étude électrique complète (notes de calcul Caneco) pour notre projet de 30 maisons jumelées. Les calculs de sections de câbles, chutes de tension et court-circuit sont d'une précision irréprochable. Les schémas unifilaires sont clairs et complets. Dossier accepté du premier coup par l'administration. Merci pour cette expertise technique !",
+      "service": "Étude Caneco 30 maisons",
+      "date": "2024-06",
+      "projectValue": "€8.500"
+    },
+    {
+      "name": "Alexandre Ferreira",
+      "location": "Esch-sur-Alzette",
+      "rating": 5,
+      "text": "Système de contrôle d'accès centralisé pour notre usine (15 portes). Badges RFID + biométrie pour zones sensibles. Le système de gestion est très complet avec journal des passages horodaté. Intégration parfaite avec notre pointeuse RH. Installation professionnelle, formation du personnel incluse. Parfait pour notre besoin !",
+      "service": "Contrôle d'accès 15 portes usine",
+      "date": "2024-07",
+      "projectValue": "€18.900"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Résidence Belval - Étude Électrique Complète 200 Appartements + Commerces",
+      "description": "Bureau d'études complet pour grande résidence Esch-Belval : notes de calcul Caneco MT/BT (poste transformation HTA/BT 1000 kVA, tableaux généraux, distribution par immeuble), schémas unifilaires 8 bâtiments, bilan de puissance détaillé (puissance souscrite, facteur simultanéité, compensation réactive), études d'éclairage Dialux (parkings souterrains 200 places, parties communes, commerces RDC), plans de câblage AutoCAD (cheminements HTA, colonnes montantes, distribution horizontale), nomenclature matériel complète (cellules HTA, transformateur, TGBT, tableaux divisionnaires), dossier permis de construire, DCE (Dossier Consultation Entreprises). Projet comprenant également réseau VDI fibre optique, contrôle d'accès, vidéosurveillance, détection incendie SSI catégorie A, GTB, bornes de recharge VE (40 emplacements pré-équipés).",
+      "serviceType": "Bureau d'études techniques - Résidence 200 logements",
+      "location": "Esch-sur-Alzette (Belval)",
+      "scope": "Moyenne tension, basse tension, courants faibles, éclairage",
+      "imageBefore": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
+      "imageAfter": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab",
+      "images": [
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab",
+        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40"
+      ],
+      "budget": "€38.000",
+      "duration": "10 semaines étude",
+      "deliverables": "Note calcul Caneco 180 pages, schémas unifilaires, plans AutoCAD, Dialux parkings, nomenclature complète, DCE",
+      "metric": {
+        "label": "200 appartements",
+        "value": "200",
+        "description": "logements + commerces étudiés"
+      },
+      "technicalHighlights": [
+        "Poste MT/BT 1000 kVA avec 2 transformateurs",
+        "Calculs court-circuit Icc 50 kA",
+        "Compensation réactive 150 kVAR",
+        "Études éclairage Dialux parkings (300 lux)",
+        "Infrastructure bornes recharge 40 VE"
+      ]
+    },
+    {
+      "title": "Installation Photovoltaïque 150 kWc - Toiture Entrepôt Industriel",
+      "description": "Installation photovoltaïque grande puissance sur toiture entrepôt logistique : 400 panneaux Longi 375Wc monocristallins (150 kWc total), 3 onduleurs triphasés Huawei SUN2000-50KTL 50kW, structure de montage aluminium lestée (toit plat étanchéité), système de monitoring professionnel avec supervision temps réel, coffrets AC/DC avec protections parafoudres type 2, mise à la terre et liaisons équipotentielles, raccordement en injection totale (revente intégrale), coffret de comptage Creos, déclaration ILR et mise en service. Production annuelle estimée : 157.000 kWh (économie 18.000€/an). Système couplé à des bornes de recharge pour flotte de véhicules utilitaires électriques (optimisation autoconsommation).",
+      "serviceType": "Photovoltaïque industriel 150 kWc",
+      "location": "Bettembourg",
+      "scope": "Étude, fourniture, installation, raccordement, mise en service",
+      "imageBefore": "https://images.unsplash.com/photo-1497440001374-f26997328c1b",
+      "imageAfter": "https://images.unsplash.com/photo-1509391366360-2e959784a276",
+      "images": [
+        "https://images.unsplash.com/photo-1509391366360-2e959784a276",
+        "https://images.unsplash.com/photo-1497440001374-f26997328c1b"
+      ],
+      "budget": "€135.000",
+      "duration": "3 semaines installation",
+      "production": "157.000 kWh/an",
+      "metric": {
+        "label": "150 kWc installés",
+        "value": "150",
+        "description": "production 157 MWh/an"
+      },
+      "technicalHighlights": [
+        "400 panneaux Longi 375Wc performance",
+        "3 onduleurs Huawei 50kW triphasés",
+        "Structure lestée (sans percement toiture)",
+        "Monitoring pro temps réel",
+        "Économie 18.000€/an (autoconso + revente)"
+      ]
+    },
+    {
+      "title": "Domotique KNX Complète - Villa Contemporaine 450m²",
+      "description": "Installation domotique KNX haut de gamme villa standing 450m² : système bus KNX filaire complet (120 actionneurs), gestion éclairage intégrale (80 circuits avec variation DALI), volets roulants et stores motorisés (28), chauffage au sol 12 zones avec thermostats KNX, climatisation 8 zones pilotée, détection présence automatique 25 détecteurs, détection crépusculaire, intégration alarme et vidéosurveillance, contrôle d'accès badges, audio multiroom Sonos 8 zones, serveur de visualisation Gira HomeServer, 5 tablettes murales tactiles 10', interrupteurs KNX design Gira E2, application smartphone iOS/Android, commande vocale Alexa intégrée, scénarios complexes (arrivée, départ, nuit, cinéma, fête, vacances), monitoring énergie avec panneaux photovoltaïques 12 kWc, gestion charge voiture électrique optimisée. Programmation complète sur-mesure, formation propriétaires 8h.",
+      "serviceType": "Domotique KNX premium villa",
+      "location": "Luxembourg-Ville (Limpertsberg)",
+      "scope": "Système KNX complet, programmation, intégrations",
+      "imageBefore": "https://images.unsplash.com/photo-1560184897-ae75f418493e",
+      "imageAfter": "https://images.unsplash.com/photo-1558002038-1055907df827",
+      "images": [
+        "https://images.unsplash.com/photo-1558002038-1055907df827",
+        "https://images.unsplash.com/photo-1560184897-ae75f418493e"
+      ],
+      "budget": "€58.000",
+      "duration": "6 semaines installation + programmation",
+      "metric": {
+        "label": "120 actionneurs KNX",
+        "value": "120",
+        "description": "contrôle total maison"
+      },
+      "technicalHighlights": [
+        "Système KNX bus filaire 120 modules",
+        "Éclairage DALI variation scène par scène",
+        "Serveur visualisation Gira HomeServer",
+        "5 tablettes murales 10 pouces",
+        "Intégration complète (alarme, vidéo, audio, énergie)"
+      ]
+    },
+    {
+      "title": "Sécurité Complète Site Industriel - Vidéo Analytics & Contrôle Accès",
+      "description": "Système de sécurité intégré site industriel 8000m² multi-bâtiments : vidéosurveillance 32 caméras IP 4K-8MP extérieures (périmètre, accès, parkings) avec analytics avancées (détection intrusion, franchissement ligne, abandon objet), 4 caméras PTZ 360° motorisées 30x zoom optique, lecture plaques immatriculation LPR entrée/sortie (2 caméras spécialisées), enregistreur NVR 64 canaux avec RAID 20 To (90 jours conservation), contrôle d'accès centralisé 15 portes avec badges RFID + biométrie (zones sensibles), barrières automatiques avec lecteur LPR, alarme anti-intrusion périmétrique avec détection extérieure, centrale SSI détection incendie adressable 200 points, intégration GTB supervision centralisée, poste sécurité avec mur vidéo 4x55', télésurveillance 24/7 avec société agréée, conformité RGPD (affichage, registre, durée conservation). Système entièrement managé à distance.",
+      "serviceType": "Sécurité industrielle intégrée",
+      "location": "Foetz (zone industrielle)",
+      "scope": "Vidéo, contrôle accès, alarme, incendie, GTB",
+      "imageBefore": "https://images.unsplash.com/photo-1586864387634-2ae2d3a286e1",
+      "imageAfter": "https://images.unsplash.com/photo-1557597774-9d273605dfa9",
+      "images": [
+        "https://images.unsplash.com/photo-1557597774-9d273605dfa9",
+        "https://images.unsplash.com/photo-1586864387634-2ae2d3a286e1"
+      ],
+      "budget": "€68.000",
+      "duration": "4 semaines installation",
+      "metric": {
+        "label": "32 caméras 4K-8MP",
+        "value": "32",
+        "description": "surveillance intelligente"
+      },
+      "technicalHighlights": [
+        "Caméras analytics IA (intrusion, ligne, LPR)",
+        "4 PTZ 30x zoom périmètre",
+        "Contrôle accès biométrique zones sensibles",
+        "NVR RAID 20 To (90 jours)",
+        "Intégration GTB supervision complète"
+      ]
+    },
+    {
+      "title": "Infrastructure Réseau Datacenter - Câblage Fibre OM4 & Cat 6A",
+      "description": "Infrastructure réseau datacenter salle serveurs 120m² : câblage structuré haute densité (48 liens fibre optique OM4 LC duplex pour backbone 10G-40G, 96 liens cuivre Cat 6A blindé FTP pour serveurs 10GBase-T), 4 baies serveurs 42U professionnelles avec double PDU et monitoring, 2 switchs cœur 48 ports 10G SFP+ Cisco empilés (96 ports total), 4 switchs ToR 48 ports 10GBase-T PoE++, chemins de câbles aériens haute capacité avec séparation cuivre/fibre, double alimentation électrique avec onduleur UPS triphasé 40 kVA (autonomie 15 min) + groupe électrogène diesel 60 kVA, climatisation de précision redondée (2x15 kW), détection incendie par aspiration VESDA avec extinction gaz FM-200, contrôle d'accès biométrique + vidéosurveillance HD, monitoring environnemental (température, humidité, fumée, eau, alimentation), baie réseau séparée avec firewall next-gen Fortinet + load balancer. Installation conforme Tier 2 (disponibilité 99,75%). Tests et certification Fluke DSX-8000 (Cat 6A) + OTDR fibre. Documentation exhaustive (380 pages).",
+      "serviceType": "Infrastructure réseau datacenter professionnel",
+      "location": "Luxembourg-Kirchberg",
+      "scope": "Câblage, équipements actifs, sécurité, monitoring",
+      "imageBefore": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
+      "imageAfter": "https://images.unsplash.com/photo-1551808525-51a94da548ce",
+      "images": [
+        "https://images.unsplash.com/photo-1551808525-51a94da548ce",
+        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31"
+      ],
+      "budget": "€95.000",
+      "duration": "5 semaines installation",
+      "metric": {
+        "label": "144 liens 10G",
+        "value": "144",
+        "description": "fibre OM4 + Cat 6A"
+      },
+      "technicalHighlights": [
+        "48 liens fibre OM4 10G-40G backbone",
+        "96 liens Cat 6A 10GBase-T certifiés",
+        "Switchs Cisco cœur 10G empilés",
+        "Double alimentation UPS 40 kVA + GE 60 kVA",
+        "Conforme Tier 2 (99,75% disponibilité)"
+      ]
+    },
+    {
+      "title": "Bornes Recharge Bus Électriques - Dépôt Transport Public 6x150kW",
+      "description": "Infrastructure recharge flotte autobus électriques dépôt AVL (Administration des transports publics) : 6 chargeurs rapides DC 150 kW Heliox avec pantographe automatique, poste de transformation MT/BT dédié 630 kVA, cellule HTA arrivée + protection + comptage, câblage HTA souterrain 150mm², tableaux BT 3x400A avec système de gestion dynamique de charge (load management), supervision centralisée flotte avec optimisation tarifaire heures creuses, monitoring temps réel (puissance, énergie, disponibilité), génie civil (tranchées, dalles béton, supports pantographes), signalétique et marquage au sol, intégration système de gestion de dépôt existant (GTFS), formation chauffeurs et personnel maintenance. Système permet recharge simultanée 6 bus en 2-3h (batteries 300 kWh). Économie estimée 65% vs bus diesel (coût kilométrique). Installation conforme normes IEC 61851 et règlement Grand-Ducal.",
+      "serviceType": "Bornes recharge bus électriques",
+      "location": "Luxembourg-Ville (dépôt bus)",
+      "scope": "Infrastructure MT/BT, bornes DC 150kW, supervision",
+      "imageBefore": "https://images.unsplash.com/photo-1570125909232-eb263c188f7e",
+      "imageAfter": "https://images.unsplash.com/photo-1593941707882-a5bba14938c7",
+      "images": [
+        "https://images.unsplash.com/photo-1593941707882-a5bba14938c7",
+        "https://images.unsplash.com/photo-1570125909232-eb263c188f7e"
+      ],
+      "budget": "€285.000",
+      "duration": "8 semaines installation",
+      "metric": {
+        "label": "6x150 kW DC",
+        "value": "900kW",
+        "description": "puissance totale installée"
+      },
+      "technicalHighlights": [
+        "6 chargeurs Heliox 150kW pantographe auto",
+        "Poste MT/BT 630 kVA dédié",
+        "Load management dynamique 6 bornes",
+        "Supervision flotte temps réel",
+        "Recharge complète bus 2-3h (300 kWh)"
+      ]
+    }
+  ],
+  "stats": {
+    "projectsCompleted": 850,
+    "yearsExperience": 11,
+    "satisfactionRate": 98,
+    "responseTime": "24h",
+    "teamSize": 8,
+    "studiesSold": 180,
+    "pvInstalled": "4,2 MWc",
+    "chargersInstalled": 240
+  },
+  "team": {
+    "description": "Notre équipe pluridisciplinaire de 8 experts",
+    "members": [
+      {
+        "name": "M. Neslym Cherifi",
+        "role": "Gérant Technique & Ingénieur Études",
+        "experience": "15 ans",
+        "certifications": ["Ingénieur électrotechnique", "Expert Caneco/Dialux", "Habilitations électriques BR/BC/B2V"],
+        "phone": "+352 661 22 44 09"
+      },
+      {
+        "name": "Électriciens qualifiés",
+        "role": "Équipe installation (5 électriciens)",
+        "experience": "5-12 ans",
+        "certifications": ["CAP/BEP Électricité", "Habilitations BR/BC", "Formation continue"]
+      },
+      {
+        "name": "Techniciens spécialisés",
+        "role": "Domotique, réseaux, sécurité (2 techniciens)",
+        "experience": "8-10 ans",
+        "certifications": ["KNX Partner certifié", "Cisco CCNA", "Certification systèmes sécurité"]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Que comprend une étude électrique complète avec notes de calcul Caneco ?",
+      "answer": "Une étude électrique professionnelle avec Caneco comprend :\n\n**Calculs techniques** :\n- Bilan de puissance détaillé (kW, kVA, cos φ, facteur simultanéité)\n- Dimensionnement sections de câbles selon IEC 60364 (mm²)\n- Calcul chutes de tension (ΔU% sur chaque circuit)\n- Calculs courants de court-circuit (Icc, Ik)\n- Vérification sélectivité et coordination des protections\n- Dimensionnement protections (disjoncteurs, fusibles)\n- Calculs mise à la terre et liaisons équipotentielles\n\n**Livrables** :\n- Note de calcul Caneco complète (50-200 pages selon projet)\n- Schémas unifilaires (tableau général + tableaux divisionnaires)\n- Schémas multifilaires détaillés\n- Plans de câblage AutoCAD (cheminements, sections)\n- Plans d'implantation équipements (tableaux, luminaires, prises)\n- Nomenclature matériel exhaustive avec références exactes\n- Cahier des charges techniques\n- Dossier permis de construire si applicable\n- DCE (Dossier Consultation Entreprises) si revente d'étude\n\nÉtudes conformes NF C 15-100, IEC 60364 et règlement Grand-Ducal Luxembourg. Idéal pour promoteurs, architectes, bureaux d'ingénierie."
+    },
+    {
+      "question": "Combien coûte une étude Dialux pour l'éclairage d'un bâtiment ?",
+      "answer": "Le coût d'une étude photométrique Dialux dépend de la complexité et surface :\n\n**Tarifs indicatifs** :\n- **Logement individuel** (150-250m²) : 800-1.500€\n- **Petit commerce/bureau** (200-500m²) : 1.200-2.500€\n- **Moyen bâtiment** (500-2000m²) : 2.500-6.000€\n- **Grand bâtiment** (2000-10000m²) : 6.000-15.000€\n- **Éclairage extérieur** (parkings, voiries) : selon surface\n\n**L'étude Dialux comprend** :\n- Modélisation 3D du bâtiment avec mobilier\n- Implantation optimale des luminaires\n- Calculs photométriques (éclairement moyen Em, uniformité U0)\n- Courbes isolux par zone\n- Vérification conformité normes (EN 12464-1 lieux travail)\n- Calcul consommation énergétique (W/m²)\n- Rendus 3D photoréalistes jour/nuit\n- Choix luminaires avec références fabricants\n- Nomenclature complète\n\nObjectif : éclairage optimal (confort visuel + économies énergie). Indispensable projets tertiaires pour conformité normes."
+    },
+    {
+      "question": "Combien coûte une installation photovoltaïque au Luxembourg en 2024 ?",
+      "answer": "Prix installation photovoltaïque résidentielle Luxembourg :\n\n**Tarifs au kWc** : 1.400-2.200€/kWc selon puissance et qualité\n\n**Exemples concrets** :\n- **3 kWc** (8-10 panneaux) : 6.500-8.500€ → Production 2.700-3.300 kWh/an\n- **6 kWc** (16-18 panneaux) : 11.000-14.000€ → Production 5.400-6.600 kWh/an\n- **10 kWc** (24-28 panneaux) : 17.000-22.000€ → Production 9.000-11.000 kWh/an\n\n**Aides Luxembourg 2024** :\n- **PRIMe House** : jusqu'à 4.500€ selon puissance\n- **TVA réduite 3%** (au lieu de 17%) si couplée à rénovation\n- **Tarif rachat surplus** : garanti 15 ans\n\n**Rentabilité** :\n- Économie facture : 50-80% (autoconsommation)\n- Retour sur investissement : 7-12 ans\n- Durée de vie système : 30+ ans\n- Garantie panneaux : 25 ans (80% performance)\n\n**Entreprises** : installations 30-250+ kWc sur devis (tarif dégressif). Nous gérons l'intégralité : étude, installation, raccordement, dossiers aides, mise en service."
+    },
+    {
+      "question": "Quelle borne de recharge choisir pour ma voiture électrique ?",
+      "answer": "Le choix de la borne dépend de votre installation électrique et besoins :\n\n**RÉSIDENTIEL** :\n\n**Prise renforcée Green'Up 3,2 kW** (économique)\n- Prix : 300-600€ installée\n- Charge lente : 8-12h pour recharge complète\n- Idéal : usage occasionnel, petite batterie (<40 kWh)\n\n**Wallbox 7,4 kW monophasé** (standard)\n- Prix : 1.200-1.800€ installée\n- Charge normale : 4-6h\n- Idéal : usage quotidien, installation monophasée standard\n\n**Wallbox 11 kW triphasé** (recommandé)\n- Prix : 1.400-2.200€ installée\n- Charge accélérée : 2-4h\n- Idéal : installation triphasée disponible\n- Marques recommandées : Wallbox Pulsar Plus, Alfen Eve, Schneider EVlink\n\n**Wallbox 22 kW triphasé** (rapide)\n- Prix : 1.600-2.500€ installée\n- Charge rapide : 1-2h\n- Idéal : grosse batterie (>70 kWh), usage intensif\n- Nécessite : triphasé 32A disponible\n\n**Fonctions smart recommandées** :\n- App smartphone (pilotage à distance)\n- Gestion charge dynamique (load balancing)\n- Optimisation solaire (si panneaux PV)\n- RFID (contrôle d'accès)\n\n**Aides** : Climabënus jusqu'à 600€ pour installation résidentielle. Nous vous conseillons la solution optimale selon votre installation électrique."
+    },
+    {
+      "question": "Quel système domotique choisir : KNX, Loxone ou Fibaro ?",
+      "answer": "Chaque système a ses avantages selon votre projet :\n\n**KNX** (standard professionnel)\n✓ Standard mondial (800+ fabricants compatibles)\n✓ Fiabilité industrielle maximale\n✓ Évolutivité illimitée\n✓ Idéal : projets neufs >150m², villas, immeubles\n✗ Prix premium (150-300€/m²)\n✗ Nécessite câblage bus complet\n✗ Programmation plus complexe\n\n**LOXONE** (solution intégrée)\n✓ Excellent rapport qualité/prix\n✓ Interface intuitive et moderne\n✓ Intelligence artificielle intégrée\n✓ Filaire (Tree) ou radio (Air)\n✓ Idéal : maisons neuves et rénovations\n✗ Système propriétaire (moins de choix fabricants)\n- Prix moyen : 100-200€/m²\n\n**FIBARO** (sans fil Z-Wave)\n✓ Aucun câblage (idéal rénovation)\n✓ Installation progressive module par module\n✓ Compatible Google/Alexa/Siri\n✓ Prix accessible (50-120€/m²)\n✓ Idéal : rénovations, petits/moyens projets\n✗ Portée radio limitée (grandes maisons)\n✗ Dépend qualité réseau Z-Wave\n\n**Notre recommandation** :\n- Construction neuve >200m² : **KNX**\n- Construction neuve <200m² : **Loxone**\n- Rénovation : **Fibaro** ou **Loxone Air**\n- Budget serré : **Fibaro**\n\nNous vous proposons le système optimal selon votre projet et budget."
+    },
+    {
+      "question": "Combien coûte un système de vidéosurveillance pour mon entreprise ?",
+      "answer": "Prix système vidéosurveillance professionnel selon besoins :\n\n**PETIT COMMERCE** (4-8 caméras)\n- **Budget** : 1.800-4.500€\n- **Inclus** : 4-8 caméras IP 4MP, NVR 8 canaux 2 To, installation, app smartphone\n- **Idéal** : magasin, bureau, petit entrepôt\n\n**MOYEN COMMERCE** (8-16 caméras)\n- **Budget** : 4.000-9.000€\n- **Inclus** : 8-16 caméras 4K intérieur/extérieur, NVR 16 canaux 4 To, analytics (détection), app, écran monitoring\n- **Idéal** : supermarché, garage, PME\n\n**GRANDE ENTREPRISE** (16-32+ caméras)\n- **Budget** : 9.000-25.000€+\n- **Inclus** : 16-32+ caméras 4K-8MP avec analytics IA, caméras PTZ motorisées, NVR pro 32+ canaux 8-20 To, intégration alarme/accès, mur vidéo, télésurveillance 24/7\n- **Idéal** : site industriel, multi-sites, zones sensibles\n\n**Options avancées** :\n- **Lecture plaques (LPR)** : +800-1.500€/caméra\n- **Analytics IA** : détection intrusion, abandon objet, comptage (inclus caméras modernes)\n- **Télésurveillance 24/7** : 50-200€/mois selon nombre caméras\n- **Stockage cloud** : 20-100€/mois selon volumétrie\n\n**Conformité RGPD garantie** : affichage, registre, durée conservation. Nous dimensionnons le système selon vos besoins réels et budget."
+    },
+    {
+      "question": "Combien coûte un câblage réseau informatique pour mes bureaux ?",
+      "answer": "Prix câblage réseau professionnel selon taille bureaux :\n\n**PETIT BUREAU** (5-20 postes)\n- **Prix** : 2.000-5.000€\n- **Inclus** : Câblage Cat 6A 10-20 prises RJ45, baie murale 6U, panneau brassage 24 ports, switch Gigabit PoE 24 ports, 1-2 points accès WiFi 6, tests et certification\n\n**BUREAU MOYEN** (20-100 postes)\n- **Prix** : 8.000-25.000€\n- **Inclus** : Câblage Cat 6A 50-100 prises, baie 42U, switchs managés empilables, 5-10 AP WiFi 6, PABX IP + téléphones, routeur/firewall, documentation complète\n\n**GRAND BUREAU** (100+ postes, multi-étages)\n- **Prix** : 30.000-125.000€+\n- **Inclus** : Câblage Cat 6A + fibre optique backbone, multiples baies par étage, switchs cœur 10G, WiFi 6 haute densité avec controller, salle serveurs dédiée, redondance, monitoring réseau\n\n**Prix au point RJ45** :\n- Cat 6 : 80-120€/point (câble + prise + brassage)\n- Cat 6A : 100-150€/point (recommandé 10G)\n- Cat 7 : 120-180€/point (très haute performance)\n\n**Garantie** : Câblage certifié Fluke = **garantie 20-25 ans** (fabricant + installateur)\n\n**Options** :\n- Fibre optique backbone : +50-80€/ml\n- WiFi 6 : 250-600€/point d'accès\n- PABX IP : 1.500-5.000€ selon postes\n\nTous nos câblages sont testés et certifiés avec rapports officiels Fluke Networks."
+    },
+    {
+      "question": "Proposez-vous un service de maintenance pour les installations électriques ?",
+      "answer": "Oui, nous proposons des **contrats de maintenance préventive** adaptés à chaque besoin :\n\n**MAINTENANCE INSTALLATIONS ÉLECTRIQUES** :\n- Vérification périodique tableaux électriques\n- Contrôle serrage connexions\n- Tests différentiels et disjoncteurs\n- Vérification mise à la terre\n- Mesures thermographiques (points chauds)\n- Rapport annuel avec recommandations\n- **Prix** : 250-800€/an selon complexité\n\n**MAINTENANCE PHOTOVOLTAÏQUE** :\n- Vérification production (monitoring)\n- Nettoyage panneaux (option)\n- Contrôle onduleurs et protections\n- Tests électriques DC/AC\n- Resserrage connexions\n- **Prix** : 150-400€/an\n\n**MAINTENANCE DOMOTIQUE** :\n- Vérifications système KNX/Loxone/Fibaro\n- Mises à jour logicielles\n- Tests automatismes et scénarios\n- Optimisations programmation\n- Support technique prioritaire\n- **Prix** : 300-1.200€/an selon système\n\n**MAINTENANCE SÉCURITÉ** :\n- Tests alarmes et détecteurs\n- Vérification caméras et enregistrement\n- Maintenance contrôle d'accès\n- Tests SSI (détection incendie)\n- **Prix** : 400-1.500€/an selon installation\n\n**MAINTENANCE RÉSEAUX & VDI** :\n- Vérifications switchs et routeurs\n- Mises à jour firmware\n- Tests performance réseau\n- Vérification WiFi\n- Support technique\n- **Prix** : 600-2.500€/an selon infrastructure\n\n**AVANTAGES CONTRAT** :\n- Interventions prioritaires\n- Tarifs réduits dépannages (-20%)\n- Support technique téléphonique illimité\n- Planning interventions personnalisé\n- Prolongation garanties équipements\n\nNous adaptons le contrat à vos besoins et budget. Devis maintenance gratuit sur demande."
+    },
+    {
+      "question": "Intervenez-vous aussi en Belgique, France et Allemagne frontalières ?",
+      "answer": "Oui, nous intervenons dans **tout le Grand-Duché de Luxembourg** ainsi que les **zones frontalières** (rayon 30 km) :\n\n**BELGIQUE** :\n- Arlon\n- Messancy  \n- Aubange\n- Virton\n- Florenville\n\n**FRANCE** :\n- Thionville\n- Longwy\n- Villerupt\n- Mont-Saint-Martin\n- Audun-le-Tiche\n\n**ALLEMAGNE** :\n- Trier (Trèves)\n- Bitburg\n- Zone proche Luxembourg\n\n**Conditions zones frontalières** :\n- Léger supplément déplacement selon distance (50-150€)\n- Tous travaux électriques (études, installation, dépannage)\n- Mêmes garanties qu'au Luxembourg\n- Respect normes pays concerné (NF C 15-100 France, normes allemandes, etc.)\n- Prise de mesures et devis gratuits\n\n**Nos domaines d'intervention** :\n- Bureau d'études (Caneco, Dialux) : partout en Europe (études à distance)\n- Installations électriques : Luxembourg + zones frontalières 30km\n- Photovoltaïque et bornes recharge : Luxembourg + 30km\n- Domotique, sécurité, réseaux : Luxembourg + 30km\n\nPour projets plus éloignés : nous étudions au cas par cas. N'hésitez pas à nous contacter !"
+    },
+    {
+      "question": "Proposez-vous des solutions de financement pour les grands projets ?",
+      "answer": "Oui, plusieurs **solutions de financement** disponibles :\n\n**PAIEMENT ÉCHELONNÉ** (>3.000€) :\n- **2 fois sans frais**\n- **3 fois sans frais**\n- **4 fois sans frais**\n- Acompte 30% à la commande\n- Solde échelonné sur 2-4 mois\n\n**FINANCEMENT BANCAIRE** (>10.000€) :\n- **Crédit travaux** 12 à 120 mois\n- Partenariats banques luxembourgeoises\n- Taux attractifs selon profil\n- Montage dossier gratuit\n- Simulation rapide\n\n**LEASING PROFESSIONNEL** (entreprises) :\n- Location avec option d'achat (LOA)\n- Crédit-bail\n- Préservation trésorerie\n- Déductibilité fiscale\n- Idéal : photovoltaïque, bornes recharge, infrastructures\n\n**AIDES & SUBVENTIONS** :\n- **PRIMe House** photovoltaïque : jusqu'à 4.500€\n- **Climabënus** bornes recharge : jusqu'à 600€\n- **Klimabonus** isolation : jusqu'à 3.000€\n- **TVA réduite 3%** (au lieu 17%) pour rénovations énergétiques\n- **Aides entreprises** (Fit 4 Sustainability, etc.)\n\n→ Nous vous assistons gratuitement pour :\n- Constitution dossiers aides\n- Optimisation financement\n- Calcul rentabilité (photovoltaïque)\n- Simulation économies énergétiques\n\n**EXEMPLE CONCRET** :\nInstallation photovoltaïque 10 kWc : 20.000€\n- Prime PRIMe House : -4.000€\n- TVA réduite 3% : -2.800€ économie\n- **Coût net : 13.200€**\n- Financement 4x sans frais : 3.300€/trimestre\n- Économie électricité : 1.500€/an\n→ Retour investissement : **9 ans** / Durée vie : **30+ ans**\n\nNous étudions la meilleure solution selon votre situation. Devis et simulation gratuits."
+    }
+  ],
+  "certifications": [
+    "Entreprise Agréée Luxembourg",
+    "Membre Chambre des Métiers",
+    "Assurance RC Professionnelle & Décennale",
+    "Habilitations Électriques BR/BC/B2V",
+    "Ingénieur Agréé (notes de calcul)",
+    "Expert Logiciels Caneco & Dialux",
+    "Certification KNX Partner",
+    "Installateur Photovoltaïque Certifié",
+    "Installateur Bornes Recharge IRVE",
+    "Certifications Constructeurs (Wallbox, Loxone, Ajax, etc.)"
+  ],
+  "warranties": {
+    "studies": "Conformité normes 100% garantie (études)",
+    "installation": "2 ans garantie installation",
+    "electrical": "10 ans assurance décennale électricité",
+    "solar": "25 ans panneaux + 10 ans onduleurs",
+    "chargers": "3-5 ans bornes recharge",
+    "automation": "2-5 ans systèmes domotiques",
+    "security": "2-5 ans équipements sécurité",
+    "network": "20-25 ans câblage certifié"
+  },
+  "financing": {
+    "available": true,
+    "options": [
+      "Paiement comptant (escompte 2%)",
+      "Paiement 2 fois sans frais (>3.000€)",
+      "Paiement 3 fois sans frais (>5.000€)",
+      "Paiement 4 fois sans frais (>8.000€)",
+      "Crédit travaux bancaire 12-120 mois (>10.000€)",
+      "Leasing professionnel (entreprises)"
+    ],
+    "deposit": "30% à la signature",
+    "balance": "Solde à la livraison ou échelonné",
+    "minAmount": "€3.000 pour paiement échelonné"
+  },
+  "subsidies": {
+    "primeHouse": {
+      "name": "PRIMe House (photovoltaïque)",
+      "description": "Aide installation panneaux solaires résidentielle",
+      "amount": "Jusqu'à 4.500€ selon puissance",
+      "conditions": "Résidence principale, installateur certifié",
+      "ourService": "Constitution dossier gratuite"
+    },
+    "climabenus": {
+      "name": "Climabënus (borne recharge)",
+      "description": "Aide installation borne recharge VE résidentielle",
+      "amount": "Jusqu'à 600€",
+      "conditions": "Résidence principale",
+      "ourService": "Assistance dossier gratuite"
+    },
+    "reducedVAT": {
+      "name": "TVA réduite 3%",
+      "description": "TVA réduite rénovations énergétiques",
+      "instead": "17% TVA standard",
+      "savings": "Économie 14% sur TTC",
+      "conditions": "Rénovation logement >10 ans, travaux éligibles"
+    }
+  },
+  "seo": {
+    "keywords": [
+      "électricien Luxembourg",
+      "bureau d'études électriques Luxembourg",
+      "Caneco Luxembourg",
+      "Dialux Luxembourg",
+      "dimensionnement installation électrique",
+      "panneaux photovoltaïques Luxembourg",
+      "borne recharge Luxembourg",
+      "électricité générale Luxembourg",
+      "domotique Luxembourg",
+      "KNX Luxembourg",
+      "alarme vidéosurveillance Luxembourg",
+      "contrôle d'accès Luxembourg",
+      "câblage réseau Luxembourg",
+      "VDI Luxembourg",
+      "revente d'études électriques"
+    ],
+    "metaTitle": "ELECTRIC SYSTEM - Électricité, Études Caneco/Dialux, Photovoltaïque, Domotique Luxembourg",
+    "metaDescription": "ELECTRIC SYSTEM Sàrl : Bureau d'études électriques (Caneco, Dialux), installation photovoltaïque, bornes recharge VE, électricité générale, domotique, sécurité, réseaux. Expert dimensionnement installations. Revente d'études pour promoteurs. ☎ +352 661 22 44 09",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "ELECTRIC SYSTEM Sàrl",
+      "image": "https://www.electricsystem.lu/images/logo.png",
+      "priceRange": "€€€",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Luxembourg",
+        "addressCountry": "LU"
+      },
+      "telephone": "+352-661-22-44-09",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "168"
+      }
+    }
+  },
+  "additionalServices": {
+    "freeServices": [
+      "Devis gratuit détaillé",
+      "Visite sur site gratuite",
+      "Conseil technique personnalisé",
+      "Étude de faisabilité (études techniques)",
+      "Simulation production photovoltaïque",
+      "Assistance dossiers aides (PRIMe House, Climabënus)",
+      "Dépannage diagnostic gratuit",
+      "Garanties constructeurs complètes"
+    ],
+    "premiumServices": [
+      "Études techniques complètes (Caneco, Dialux)",
+      "Revente d'études pour promoteurs/architectes",
+      "Certification câblage réseau Fluke",
+      "Télésurveillance 24/7",
+      "Contrats maintenance préventive",
+      "Formation domotique avancée",
+      "Monitoring production photovoltaïque",
+      "Support technique prioritaire"
+    ]
+  },
+  "ecoResponsibility": {
+    "commitments": [
+      "Promotion énergies renouvelables (photovoltaïque)",
+      "Optimisation consommation énergétique (LED, domotique)",
+      "Mobilité électrique (bornes recharge)",
+      "Matériel certifié et durable",
+      "Recyclage DEEE (déchets électriques)",
+      "Réduction empreinte carbone clients",
+      "Conformité directives européennes (REACH, RoHS)",
+      "Études Dialux optimisation éclairage (économies énergie)"
+    ]
+  }
+}

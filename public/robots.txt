@@ -1,0 +1,10 @@
+# robots.txt pour ELECTRIC SYSTEM Sàrl
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.electricsystem.lu/sitemap.xml
+
+# Délai entre les requêtes (en secondes)
+Crawl-delay: 1
