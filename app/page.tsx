@@ -67,9 +67,9 @@ export default function HomePage() {
 
         {/* Contenu */}
         <div className="container-custom relative z-10 py-20">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-[1.1fr,0.9fr] gap-16 items-start lg:items-center">
             {/* Colonne gauche - Texte principal */}
-            <div>
+            <div className="pr-0 lg:pr-8">
               {/* Badge premium */}
               <div className="inline-flex items-center gap-2 bg-gradient-primary backdrop-blur-sm rounded-full px-6 py-3 mb-8 animate-bounceIn shadow-glow-orange">
                 <Calculator className="h-5 w-5 text-white" />
@@ -141,7 +141,7 @@ export default function HomePage() {
             </div>
 
             {/* Colonne droite - Visual Card avec specs techniques et image 3D */}
-            <div className="hidden lg:block animate-fadeInUp" style={{animationDelay: '0.3s'}}>
+            <div className="hidden lg:block animate-fadeInUp pl-0 lg:pl-4" style={{animationDelay: '0.3s'}}>
               <div className="space-y-6">
                 {/* Image 3D de projet en haut */}
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl group">
