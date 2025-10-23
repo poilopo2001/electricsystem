@@ -130,31 +130,6 @@ export const SERVICES: Service[] = [
     estimatedDuration: "1-3 jours installation"
   },
   {
-    name: "Domotique & Système KNX",
-    slug: "domotique-knx",
-    shortDescription: "Installation systèmes domotiques professionnels KNX pour maisons intelligentes. Contrôle éclairage, chauffage, stores, sécurité via smartphone.",
-    fullDescription: "Transformez votre habitation en maison intelligente avec un système domotique KNX professionnel. ELECTRIC SYSTEM conçoit et installe des solutions domotiques complètes qui vous offrent confort, économies d'énergie et sécurité.",
-    priceRange: "€3.500 - €65.000",
-    priceMin: 3500,
-    priceMax: 65000,
-    benefits: [
-      "Protocole KNX standard mondial",
-      "Contrôle centralisé smartphone/tablette",
-      "Économies énergie 30-40%",
-      "Scénarios personnalisables",
-      "Intégration alarme et sécurité",
-      "Évolutif et modulaire",
-      "Programmation sur-mesure",
-      "Formation utilisateur incluse",
-      "Garantie installation 5 ans",
-      "Support technique à vie"
-    ],
-    featured: true,
-    icon: "home",
-    image: "https://images.unsplash.com/photo-1558002038-1055907df827",
-    estimatedDuration: "1-4 semaines"
-  },
-  {
     name: "Systèmes de Sécurité - Alarme & Vidéosurveillance",
     slug: "securite-alarme-videosurveillance",
     shortDescription: "Installation alarme anti-intrusion, vidéosurveillance IP, contrôle d'accès. Protection complète habitations, commerces, entreprises.",
