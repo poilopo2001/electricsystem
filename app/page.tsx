@@ -50,6 +50,17 @@ export default function HomePage() {
           }}></div>
         </div>
 
+        {/* Plan électrique subtil côté gauche */}
+        <div className="absolute left-0 top-0 bottom-0 w-1/2 opacity-15 hidden lg:block">
+          <Image
+            src="https://images.unsplash.com/photo-1586281380349-632531db7ed4"
+            alt="Plan électrique technique"
+            fill
+            className="object-cover object-left"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-dark-900/50 to-dark-900"></div>
+        </div>
+
         {/* Formes décoratives avec thème technique */}
         <div className="absolute top-20 right-10 w-72 h-72 bg-primary-500/20 rounded-full blur-3xl animate-float"></div>
         <div className="absolute bottom-20 left-10 w-96 h-96 bg-accent-500/20 rounded-full blur-3xl animate-float" style={{animationDelay: '1s'}}></div>
@@ -129,57 +140,82 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Colonne droite - Visual Card avec specs techniques */}
+            {/* Colonne droite - Visual Card avec specs techniques et image 3D */}
             <div className="hidden lg:block animate-fadeInUp" style={{animationDelay: '0.3s'}}>
-              <div className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-md rounded-2xl p-8 border border-white/20 shadow-2xl">
-                <div className="flex items-center gap-3 mb-6">
-                  <div className="bg-gradient-primary p-3 rounded-xl">
-                    <Award className="h-8 w-8 text-white" />
+              <div className="space-y-6">
+                {/* Image 3D de projet en haut */}
+                <div className="relative rounded-2xl overflow-hidden shadow-2xl group">
+                  <div className="relative h-64">
+                    <Image
+                      src="https://images.unsplash.com/photo-1581092160562-40aa08e78837"
+                      alt="Projet 3D - Bureau d'études techniques"
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-dark-900 via-dark-900/50 to-transparent"></div>
                   </div>
-                  <div>
-                    <div className="text-white font-bold text-xl">Notes de Calcul Complètes</div>
-                    <div className="text-primary-400 text-sm">50-200 pages • Conformes normes LU/FR/IEC</div>
+                  <div className="absolute bottom-0 left-0 right-0 p-6">
+                    <div className="flex items-center gap-3 mb-2">
+                      <div className="bg-primary-500 p-2 rounded-lg">
+                        <Calculator className="h-5 w-5 text-white" />
+                      </div>
+                      <span className="text-white font-bold text-lg">Modélisation 3D DIALUX</span>
+                    </div>
+                    <p className="text-white/80 text-sm">Visualisation photoréaliste de vos projets</p>
                   </div>
                 </div>
 
-                <div className="space-y-4">
-                  <div className="bg-dark-800/50 rounded-lg p-4 border border-primary-500/30">
-                    <div className="flex items-center justify-between mb-2">
-                      <span className="text-white font-semibold">Livrables Inclus:</span>
-                      <CheckCircle2 className="h-5 w-5 text-primary-500" />
+                {/* Card specs techniques */}
+                <div className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-md rounded-2xl p-8 border border-white/20 shadow-2xl">
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="bg-gradient-primary p-3 rounded-xl shadow-lg">
+                      <Award className="h-8 w-8 text-white" />
                     </div>
-                    <ul className="space-y-2 text-sm text-dark-200">
-                      <li className="flex items-center gap-2">
-                        <div className="w-1.5 h-1.5 rounded-full bg-primary-500"></div>
-                        Schémas unifilaires & multifilaires
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <div className="w-1.5 h-1.5 rounded-full bg-primary-500"></div>
-                        Plans AutoCAD (DWG + PDF)
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <div className="w-1.5 h-1.5 rounded-full bg-primary-500"></div>
-                        Nomenclature matériel exhaustive
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <div className="w-1.5 h-1.5 rounded-full bg-primary-500"></div>
-                        Dossier permis de construire
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <div className="w-1.5 h-1.5 rounded-full bg-primary-500"></div>
-                        DCE pour consultation entreprises
-                      </li>
-                    </ul>
+                    <div>
+                      <div className="text-white font-bold text-xl">Notes de Calcul Complètes</div>
+                      <div className="text-primary-400 text-sm">50-200 pages • Conformes normes LU/FR/IEC</div>
+                    </div>
                   </div>
 
-                  <div className="grid grid-cols-2 gap-3">
-                    <div className="bg-gradient-to-br from-primary-500/20 to-primary-600/10 rounded-lg p-4 text-center border border-primary-500/30">
-                      <div className="text-3xl font-black text-white mb-1">850+</div>
-                      <div className="text-xs text-dark-200">Études Réalisées</div>
+                  <div className="space-y-4">
+                    <div className="bg-dark-800/50 rounded-lg p-4 border border-primary-500/30">
+                      <div className="flex items-center justify-between mb-3">
+                        <span className="text-white font-semibold">Livrables Inclus:</span>
+                        <CheckCircle2 className="h-5 w-5 text-primary-500" />
+                      </div>
+                      <ul className="space-y-2 text-sm text-dark-200">
+                        <li className="flex items-center gap-2">
+                          <div className="w-1.5 h-1.5 rounded-full bg-primary-500"></div>
+                          Schémas unifilaires & multifilaires
+                        </li>
+                        <li className="flex items-center gap-2">
+                          <div className="w-1.5 h-1.5 rounded-full bg-primary-500"></div>
+                          Plans AutoCAD (DWG + PDF)
+                        </li>
+                        <li className="flex items-center gap-2">
+                          <div className="w-1.5 h-1.5 rounded-full bg-primary-500"></div>
+                          Nomenclature matériel exhaustive
+                        </li>
+                        <li className="flex items-center gap-2">
+                          <div className="w-1.5 h-1.5 rounded-full bg-primary-500"></div>
+                          Dossier permis de construire
+                        </li>
+                        <li className="flex items-center gap-2">
+                          <div className="w-1.5 h-1.5 rounded-full bg-primary-500"></div>
+                          DCE pour consultation entreprises
+                        </li>
+                      </ul>
                     </div>
-                    <div className="bg-gradient-to-br from-accent-500/20 to-accent-600/10 rounded-lg p-4 text-center border border-accent-500/30">
-                      <div className="text-3xl font-black text-white mb-1">12 ans</div>
-                      <div className="text-xs text-dark-200">D'Expérience</div>
+
+                    <div className="grid grid-cols-2 gap-3">
+                      <div className="bg-gradient-to-br from-primary-500/20 to-primary-600/10 rounded-lg p-4 text-center border border-primary-500/30 hover:border-primary-500/60 transition-colors">
+                        <div className="text-3xl font-black text-white mb-1">850+</div>
+                        <div className="text-xs text-dark-200">Études Réalisées</div>
+                      </div>
+                      <div className="bg-gradient-to-br from-accent-500/20 to-accent-600/10 rounded-lg p-4 text-center border border-accent-500/30 hover:border-accent-500/60 transition-colors">
+                        <div className="text-3xl font-black text-white mb-1">12 ans</div>
+                        <div className="text-xs text-dark-200">D'Expérience</div>
+                      </div>
                     </div>
                   </div>
                 </div>
