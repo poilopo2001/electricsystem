@@ -28,85 +28,169 @@ import Accordion from '@/components/ui/Accordion';
 export default function HomePage() {
   return (
     <div className="overflow-x-hidden">
-      {/* Hero Section */}
+      {/* Hero Section - Bureau d'Études Techniques */}
       <section className="relative min-h-screen flex items-center justify-center bg-dark-900 overflow-hidden">
-        {/* Image de fond */}
+        {/* Image de fond - Plans techniques */}
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e"
-            alt="Électricien professionnel"
+            src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40"
+            alt="Bureau d'études techniques - Plans et calculs électriques"
             fill
-            className="object-cover opacity-30"
+            className="object-cover opacity-25"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-overlay"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-dark-900/90 via-dark-900/80 to-dark-900"></div>
         </div>
 
-        {/* Formes décoratives */}
+        {/* Grille technique en arrière-plan */}
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute inset-0" style={{
+            backgroundImage: 'linear-gradient(rgba(255,138,0,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,138,0,0.1) 1px, transparent 1px)',
+            backgroundSize: '50px 50px'
+          }}></div>
+        </div>
+
+        {/* Formes décoratives avec thème technique */}
         <div className="absolute top-20 right-10 w-72 h-72 bg-primary-500/20 rounded-full blur-3xl animate-float"></div>
         <div className="absolute bottom-20 left-10 w-96 h-96 bg-accent-500/20 rounded-full blur-3xl animate-float" style={{animationDelay: '1s'}}></div>
 
         {/* Contenu */}
         <div className="container-custom relative z-10 py-20">
-          <div className="max-w-4xl mx-auto text-center">
-            {/* Badge */}
-            <div className="inline-flex items-center gap-2 bg-primary-500/20 backdrop-blur-sm border border-primary-500/30 rounded-full px-6 py-2 mb-8 animate-bounceIn">
-              <Award className="h-5 w-5 text-primary-500" />
-              <span className="text-white font-semibold">12+ ans d'expérience au Luxembourg</span>
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Colonne gauche - Texte principal */}
+            <div>
+              {/* Badge premium */}
+              <div className="inline-flex items-center gap-2 bg-gradient-primary backdrop-blur-sm rounded-full px-6 py-3 mb-8 animate-bounceIn shadow-glow-orange">
+                <Calculator className="h-5 w-5 text-white" />
+                <span className="text-white font-bold">Bureau d'Études Techniques Certifié</span>
+              </div>
+
+              {/* Titre principal focalisé sur le cœur business */}
+              <h1 className="heading-xl text-white mb-6 animate-fadeInUp">
+                <span className="block text-5xl md:text-6xl lg:text-7xl font-black">Dimensionnement</span>
+                <span className="block text-gradient text-4xl md:text-5xl lg:text-6xl font-black mt-2">& Notes de Calcul</span>
+                <span className="block text-2xl md:text-3xl font-semibold text-dark-200 mt-4">Ingénierie Électrique Professionnelle</span>
+              </h1>
+
+              {/* Sous-titre technique */}
+              <p className="text-xl text-dark-100 mb-8 leading-relaxed animate-fadeInUp" style={{animationDelay: '0.2s'}}>
+                Études complètes <strong className="text-primary-400">CANECO</strong> et <strong className="text-primary-400">DIALUX</strong> conformes aux normes IEC 60364.
+                Plans AutoCAD, schémas unifilaires, calculs de court-circuit, sélectivité des protections.
+              </p>
+
+              {/* Points d'expertise technique */}
+              <div className="grid sm:grid-cols-2 gap-4 mb-10 animate-fadeInUp" style={{animationDelay: '0.4s'}}>
+                <div className="flex items-start gap-3 bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-primary-500/20 hover:border-primary-500/50 transition-all">
+                  <Zap className="h-6 w-6 text-primary-500 flex-shrink-0 mt-0.5" />
+                  <div>
+                    <div className="font-bold text-white text-sm">Bilan de Puissance</div>
+                    <div className="text-xs text-dark-300">kW, kVA, facteur simultanéité</div>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3 bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-primary-500/20 hover:border-primary-500/50 transition-all">
+                  <Calculator className="h-6 w-6 text-primary-500 flex-shrink-0 mt-0.5" />
+                  <div>
+                    <div className="font-bold text-white text-sm">Dimensionnement Câbles</div>
+                    <div className="text-xs text-dark-300">Sections selon IEC 60364</div>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3 bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-primary-500/20 hover:border-primary-500/50 transition-all">
+                  <Shield className="h-6 w-6 text-primary-500 flex-shrink-0 mt-0.5" />
+                  <div>
+                    <div className="font-bold text-white text-sm">Court-Circuit & Sélectivité</div>
+                    <div className="text-xs text-dark-300">Icc, Ik, protection optimale</div>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3 bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-primary-500/20 hover:border-primary-500/50 transition-all">
+                  <Sun className="h-6 w-6 text-primary-500 flex-shrink-0 mt-0.5" />
+                  <div>
+                    <div className="font-bold text-white text-sm">Études Éclairage DIALUX</div>
+                    <div className="text-xs text-dark-300">Modélisation 3D, photométrie</div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Boutons CTA */}
+              <div className="flex flex-col sm:flex-row items-start gap-4 animate-fadeInUp" style={{animationDelay: '0.6s'}}>
+                <Link
+                  href="/bureau-etudes-techniques-caneco-dialux"
+                  className="inline-flex items-center justify-center gap-2 px-8 py-4 text-lg font-bold rounded-lg bg-gradient-primary text-white hover:shadow-glow-orange transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 shadow-lg"
+                >
+                  Voir Nos Études Techniques
+                  <ArrowRight className="h-5 w-5" />
+                </Link>
+                <a
+                  href={`tel:${BUSINESS.contact.phone}`}
+                  className="inline-flex items-center justify-center gap-2 px-8 py-4 text-lg font-bold rounded-lg border-2 border-primary-500/50 text-white hover:bg-primary-500/10 hover:border-primary-500 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
+                >
+                  <Phone className="h-5 w-5" />
+                  {BUSINESS.contact.phoneDisplay}
+                </a>
+              </div>
             </div>
 
-            {/* Titre principal */}
-            <h1 className="heading-xl text-white mb-6 animate-fadeInUp">
-              <span className="block">Expert en</span>
-              <span className="block text-gradient">Ingénierie Électrique</span>
-              <span className="block">& Solutions Technologiques</span>
-            </h1>
+            {/* Colonne droite - Visual Card avec specs techniques */}
+            <div className="hidden lg:block animate-fadeInUp" style={{animationDelay: '0.3s'}}>
+              <div className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-md rounded-2xl p-8 border border-white/20 shadow-2xl">
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="bg-gradient-primary p-3 rounded-xl">
+                    <Award className="h-8 w-8 text-white" />
+                  </div>
+                  <div>
+                    <div className="text-white font-bold text-xl">Notes de Calcul Complètes</div>
+                    <div className="text-primary-400 text-sm">50-200 pages • Conformes normes LU/FR/IEC</div>
+                  </div>
+                </div>
 
-            {/* Sous-titre */}
-            <p className="body-lg text-dark-100 mb-8 max-w-3xl mx-auto animate-fadeInUp" style={{animationDelay: '0.2s'}}>
-              Bureau d'études techniques (Caneco, Dialux), installations électriques, panneaux photovoltaïques,
-              bornes de recharge, domotique KNX, sécurité. Solutions complètes pour particuliers et entreprises.
-            </p>
+                <div className="space-y-4">
+                  <div className="bg-dark-800/50 rounded-lg p-4 border border-primary-500/30">
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="text-white font-semibold">Livrables Inclus:</span>
+                      <CheckCircle2 className="h-5 w-5 text-primary-500" />
+                    </div>
+                    <ul className="space-y-2 text-sm text-dark-200">
+                      <li className="flex items-center gap-2">
+                        <div className="w-1.5 h-1.5 rounded-full bg-primary-500"></div>
+                        Schémas unifilaires & multifilaires
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <div className="w-1.5 h-1.5 rounded-full bg-primary-500"></div>
+                        Plans AutoCAD (DWG + PDF)
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <div className="w-1.5 h-1.5 rounded-full bg-primary-500"></div>
+                        Nomenclature matériel exhaustive
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <div className="w-1.5 h-1.5 rounded-full bg-primary-500"></div>
+                        Dossier permis de construire
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <div className="w-1.5 h-1.5 rounded-full bg-primary-500"></div>
+                        DCE pour consultation entreprises
+                      </li>
+                    </ul>
+                  </div>
 
-            {/* Points clés */}
-            <div className="flex flex-wrap items-center justify-center gap-6 mb-10 animate-fadeInUp" style={{animationDelay: '0.4s'}}>
-              <div className="flex items-center gap-2 text-white">
-                <CheckCircle2 className="h-5 w-5 text-primary-500" />
-                <span className="font-medium">Certifié Luxembourg</span>
+                  <div className="grid grid-cols-2 gap-3">
+                    <div className="bg-gradient-to-br from-primary-500/20 to-primary-600/10 rounded-lg p-4 text-center border border-primary-500/30">
+                      <div className="text-3xl font-black text-white mb-1">850+</div>
+                      <div className="text-xs text-dark-200">Études Réalisées</div>
+                    </div>
+                    <div className="bg-gradient-to-br from-accent-500/20 to-accent-600/10 rounded-lg p-4 text-center border border-accent-500/30">
+                      <div className="text-3xl font-black text-white mb-1">12 ans</div>
+                      <div className="text-xs text-dark-200">D'Expérience</div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className="flex items-center gap-2 text-white">
-                <CheckCircle2 className="h-5 w-5 text-primary-500" />
-                <span className="font-medium">Devis Gratuit</span>
-              </div>
-              <div className="flex items-center gap-2 text-white">
-                <CheckCircle2 className="h-5 w-5 text-primary-500" />
-                <span className="font-medium">Intervention 24/7</span>
-              </div>
-            </div>
-
-            {/* Boutons CTA */}
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-fadeInUp" style={{animationDelay: '0.6s'}}>
-              <Link
-                href="/devis-gratuit"
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 text-lg font-semibold rounded-lg bg-gradient-primary text-white hover:shadow-glow-orange transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
-              >
-                Demander un Devis Gratuit
-                <ArrowRight className="h-5 w-5" />
-              </Link>
-              <a
-                href={`tel:${BUSINESS.contact.phone}`}
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 text-lg font-semibold rounded-lg border-2 border-white/40 text-white hover:bg-white/10 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
-              >
-                <Phone className="h-5 w-5" />
-                Appeler: {BUSINESS.contact.phoneDisplay}
-              </a>
-            </div>
-
-            {/* Indicateur de scroll */}
-            <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
-              <ChevronDown className="h-8 w-8 text-white/60" />
             </div>
           </div>
+        </div>
+
+        {/* Indicateur de scroll */}
+        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
+          <ChevronDown className="h-8 w-8 text-white/60" />
         </div>
       </section>
 
